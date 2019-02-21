@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Test your ability to spot literal fake news.",
+          "examplePhrases": [
+            "Alexa, open Onion Not The Onion",
+            "Alexa, play Onion Not The Onion"
+          ],
+          "keywords": [
+            "quiz",
+            "games",
+            "news",
+            "fake news"
+          ],
+          "name": "onion-not-the-onion",
+          "description": "Test your ability to spot fake news amongst headlines that sound like they really should be fake, but arent.\n\nTo start, just say \"Alexa, launch Onion Not The Onion\" or \"Alexa, open Onion Not The Onion\" to start the game\".\n\nAt anytime, you can stop the game by saying \"Alexa, stop\""
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "None",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-onion-not-the-onion-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
