@@ -1,20 +1,9 @@
 const QuizData = require('./quizData.js');
 /* HELPER FUNCTIONS */
-const imagePath = "https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/state_flag/{0}x{1}/{2}._TTH_.png";
-const backgroundImagePath = "https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/state_flag/{0}x{1}/{2}._TTH_.png"
 const speechConsCorrect = ['Booya', 'All righty', 'Bam', 'Bazinga', 'Bingo', 'Boom', 'Bravo', 'Cha Ching', 'Cheers', 'Dynomite', 'Hip hip hooray', 'Hurrah', 'Hurray', 'Huzzah', 'Oh dear.  Just kidding.  Hurray', 'Kaboom', 'Kaching', 'Oh snap', 'Phew', 'Righto', 'Way to go', 'Well done', 'Whee', 'Woo hoo', 'Yay', 'Wowza', 'Yowsa'];
 const speechConsWrong = ['Argh', 'Aw man', 'Blarg', 'Blast', 'Boo', 'Bummer', 'Darn', "D'oh", 'Dun dun dun', 'Eek', 'Honk', 'Le sigh', 'Mamma mia', 'Oh boy', 'Oh dear', 'Oof', 'Ouch', 'Ruh roh', 'Shucks', 'Uh oh', 'Wah wah', 'Whoops a daisy', 'Yikes'];
 
-// returns true if the skill is running on a device with a display (show|spot)
-function supportsDisplay(handlerInput) {
-  var hasDisplay =
-    handlerInput.requestEnvelope.context &&
-    handlerInput.requestEnvelope.context.System &&
-    handlerInput.requestEnvelope.context.System.device &&
-    handlerInput.requestEnvelope.context.System.device.supportedInterfaces &&
-    handlerInput.requestEnvelope.context.System.device.supportedInterfaces.Display
-  return hasDisplay;
-}
+
 
 function getBadAnswer(item) {
   return `I'm sorry. ${item} is not something I know very much about in this skill. ${helpMessage}`;
@@ -32,25 +21,8 @@ function getCardTitle(item) {
   return item.StateName;
 }
 
-function getSmallImage(item) {
-  return `https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/state_flag/720x400/${item.Abbreviation}._TTH_.png`;
-}
 
-function getLargeImage(item) {
-  return `https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/state_flag/1200x800/${item.Abbreviation}._TTH_.png`;
-}
 
-function getImage(height, width, label) {
-  return imagePath.replace("{0}", height)
-    .replace("{1}", width)
-    .replace("{2}", label);
-}
-
-function getBackgroundImage(label, height = 1024, width = 600) {
-  return backgroundImagePath.replace("{0}", height)
-    .replace("{1}", width)
-    .replace("{2}", label);
-}
 
 function getSpeechDescription(item) {
   return `${item.StateName} is the ${item.StatehoodOrder}th state, admitted to the Union in ${item.StatehoodYear}.  The capital of ${item.StateName} is ${item.Capital}, and the abbreviation for ${item.StateName} is <break strength='strong'/><say-as interpret-as='spell-out'>${item.Abbreviation}</say-as>.  I've added ${item.StateName} to your Alexa app.  Which other state or capital would you like to know about?`;
@@ -215,15 +187,11 @@ function shuffle(array) {
 
 module.exports = {
   askQuestion: askQuestion,
-  supportsDisplay: supportsDisplay,
   getQuestionWithoutOrdinal: getQuestionWithoutOrdinal,
-  getBackgroundImage: getBackgroundImage,
   getAndShuffleMultipleChoiceAnswers: getAndShuffleMultipleChoiceAnswers,
   getItem: getItem,
   getCardTitle: getCardTitle,
   getTextDescription: getTextDescription,
-  getSmallImage: getSmallImage,
-  getLargeImage: getLargeImage,
   getSpeechDescription: getSpeechDescription,
   getSpeechCon: getSpeechCon,
   getAnswer: getAnswer,
@@ -231,5 +199,4 @@ module.exports = {
   compareSlots: compareSlots,
   getBadAnswer: getBadAnswer,
   getCurrentScore: getCurrentScore,
-  getImage: getImage
 };

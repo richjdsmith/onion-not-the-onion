@@ -6,7 +6,7 @@
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "d5c16af844459d52c9e5e8056d2f4c21"
+          "eTag": "8215d3442902c3742e5e957e331b74ac"
         },
         "interactionModel": {
           "en-US": {
@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-onion-not-the-onion-default",
             "handler": "index.handler",
-            "revisionId": "d77044d5-c461-4c6c-b454-e1641f25b7f7",
+            "revisionId": "396a3781-3951-464c-bdd6-e787b16ec4dd",
             "runtime": "nodejs8.10"
           }
         ]

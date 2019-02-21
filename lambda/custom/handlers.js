@@ -47,30 +47,6 @@ const QuizHandler = {
     var speakOutput = startQuizMessage + question;
     var repromptOutput = question;
 
-    const item = attributes.quizItem;
-    const property = attributes.quizProperty;
-
-    if (Builders.supportsDisplay(handlerInput)) {
-      const title = `Question #${attributes.counter}`;
-      const primaryText = new Alexa.RichTextContentHelper().withPrimaryText(Builders.getQuestionWithoutOrdinal(property, item)).getTextContent();
-      const backgroundImage = new Alexa.ImageHelper().addImageInstance(Builders.getBackgroundImage(attributes.quizItem.Abbreviation)).getImage();
-      const itemList = [];
-      Builders.getAndShuffleMultipleChoiceAnswers(attributes.selectedItemIndex, item, property).forEach((x, i) => {
-        itemList.push({
-          "token": x,
-          "textContent": new Alexa.PlainTextContentHelper().withPrimaryText(x).getTextContent(),
-        });
-      });
-      response.addRenderTemplateDirective({
-        type: 'ListTemplate1',
-        token: 'Question',
-        backButton: 'hidden',
-        backgroundImage,
-        title,
-        listItems: itemList,
-      });
-    }
-
     return response.speak(speakOutput)
       .reprompt(repromptOutput)
       .getResponse();
@@ -98,23 +74,10 @@ const DefinitionHandler = {
       if (useCardsFlag) {
         response.withStandardCard(
           Builders.getCardTitle(item),
-          Builders.getTextDescription(item),
-          Builders.getSmallImage(item),
-          Builders.getLargeImage(item));
+          Builders.getTextDescription(item));
+
       }
 
-      if (Builders.supportsDisplay(handlerInput)) {
-        const image = new Alexa.ImageHelper().addImageInstance(Builders.getLargeImage(item)).getImage();
-        const title = Builders.getCardTitle(item);
-        const primaryText = new Alexa.RichTextContentHelper().withPrimaryText(Builders.getTextDescription(item, "<br/>")).getTextContent();
-        response.addRenderTemplateDirective({
-          type: 'BodyTemplate2',
-          backButton: 'visible',
-          image,
-          title,
-          textContent: primaryText,
-        });
-      }
       let repromptSpeech = `Which other state or capital would you like to know about?`;
       return response.speak(Builders.getSpeechDescription(item))
         .reprompt(repromptSpeech)
@@ -167,42 +130,13 @@ const QuizAnswerHandler = {
       speakOutput += question;
       repromptOutput = question;
 
-      if (Builders.supportsDisplay(handlerInput)) {
-        const title = `Question #${attributes.counter}`;
-        const primaryText = new Alexa.RichTextContentHelper().withPrimaryText(Builders.getQuestionWithoutOrdinal(attributes.quizProperty, attributes.quizItem)).getTextContent();
-        const backgroundImage = new Alexa.ImageHelper().addImageInstance(Builders.getBackgroundImage(attributes.quizItem.Abbreviation)).getImage();
-        const itemList = [];
-        Builders.getAndShuffleMultipleChoiceAnswers(attributes.selectedItemIndex, attributes.quizItem, attributes.quizProperty).forEach((x, i) => {
-          itemList.push({
-            "token": x,
-            "textContent": new Alexa.PlainTextContentHelper().withPrimaryText(x).getTextContent(),
-          });
-        });
-        response.addRenderTemplateDirective({
-          type: 'ListTemplate1',
-          token: 'Question',
-          backButton: 'hidden',
-          backgroundImage,
-          title,
-          listItems: itemList,
-        });
-      }
       return response.speak(speakOutput)
         .reprompt(repromptOutput)
         .getResponse();
     } else {
       let exitSkillMessage = `Thank you for playing the United States Quiz Game!  Let's play again soon!`;
       speakOutput += Builders.getFinalScore(attributes.quizScore, attributes.counter) + exitSkillMessage;
-      if (Builders.supportsDisplay(handlerInput)) {
-        const title = 'Thank you for playing';
-        const primaryText = new Alexa.RichTextContentHelper().withPrimaryText(Builders.getFinalScore(attributes.quizScore, attributes.counter)).getTextContent();
-        response.addRenderTemplateDirective({
-          type: 'BodyTemplate1',
-          backButton: 'hidden',
-          title,
-          textContent: primaryText,
-        });
-      }
+
       return response.speak(speakOutput).getResponse();
     }
   },
