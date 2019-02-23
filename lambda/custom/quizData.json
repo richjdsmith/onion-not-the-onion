@@ -1,606 +1,2401 @@
-{
-  "notTheOnionHeadlines": [
-    "Ben Affleck finally achieves lifelong dream of not having to play Batman anymore",
-    "American parents say their children are speaking in British accent after watching too much Peppa Pig",
-    "Anti-vaccine advocates appointed to Minnesota autism council after measles outbreak",
-    "Billionaire Howard Schultz is very upset you’re calling him a billionaire",
-    "Store closes after Nike boycott: 'More Colin Kaepernick fans than I realized'",
-    "Pablo's Escoburgers restaurant draws backlash for name, serving hamburger with line of fake cocaine",
-    "BBC made Russell Howard rewrite a joke - in case it offended Isis",
-    "Wisconsin high school cheerleaders received awards for biggest breasts, butt at banquet",
-    "Twitter CEO says Mark Zuckerberg once killed a goat with a stun gun and served it to him for dinner",
-    "As measles outbreak spreads, one anti- vaxxer asks how to keep her child safe",
-    "Hundreds rally to preserve right not to vaccinate children amid measles outbreak",
-    "Shopworker stole £1,500 worth of scratchcards — and didn't win ANYTHING",
-    "Sam Elliott on his Oscar nod: \"It's about fucking time\"",
-    "UAE's gender equality awards won entirely by men",
-    "Canadian woman writes own obituary, says she has ‘smoking hot body she always wanted’ after being cremated",
-    "This Saints fan was 'determined' not to watch the Super Bowl, his obit says. He died just hours before the game",
-    "Murder suspect tries to turn himself in at New Orleans jail, but deputies demand proper ID",
-    "Microsoft security chief: IE is not a browser, so stop using it as your default",
-    "Hawaii lawmaker proposes banning sale of cigarettes to anyone under 100-years-old",
-    "Netflix Asks Viewers to Stop Calling Ted Bundy 'Hot'",
-    "Gillibrand campaign event interrupted by woman seeking ranch dressing",
-    "National Weather Service Issues ‘Small Dog Warning’ Due to High Winds",
-    "John McAfee is running from U.S. authorities – and running for President. On a boat.",
-    "Woman dressed as gorilla cop helps police catch sex pest",
-    "Inmate saves baby from locked SUV using his car theft skills",
-    "Reddit users are the least valuable of any social network",
-    "Arkansas man, 19, admits trying to steal plane to see rap concert",
-    "North Korea Launches Clothing Line That Can Be Eaten to 'Avoid Starvation'",
-    "The former Apple lawyer who was supposed to keep employees from insider trading has been charged with insider trading",
-    "Insys executive gave doctor lap dance while promoting drug, witness says",
-    "Record private jet flights into Davos as leaders arrive for climate talk",
-    "Women's panel says it's fed up with women-only panels and wants more men",
-    "Canadians stuck in 70-car pileup play hockey on highway",
-    "Lightsaber Dueling Is Now Recognized As a Competitive Sport in France. No, Really",
-    "Americans ‘very Satisfied’ With Personal Lives Unless They’re Young or Not White",
-    "British Lord suggests recolonizing Zimbabwe to end crisis",
-    "Immigration play cancelled because actor failed to apply for a travel visa",
-    "Russia Proposes Easing Laws On Corruption, Saying It's Unavoidable Sometimes",
-    "Man wins fit-for-work appeal seven months after his death",
-    "Snow should cancel crime and ‘doing really dumb things,’ North Alabama police advise",
-    "Self-described 'Worst Mom in the World' Accidentally Donates Son's Mug With $6,500 Stashed Inside to Goodwill",
-    "Burn Injuries From Viral Boiling Water Challenge Sending People To The Hospital",
-    "South Korean parents hire thugs to stop school bullies",
-    "Cashier stops robbery by striking suspect with banana",
-    "Celebrity groundhogs fail to agree on when spring will arrive",
-    "Female German referee causes Bundesliga broadcast to be canceled in Iran",
-    "Almost 500 crocodiles to be relocated to protect tourists at world's tallest statue",
-    "Secret Service members create challenge coin for working without pay",
-    "Judge to watch ‘extreme’ pornography in preparation for trial",
-    "Honda Recalling Pickups For Catching Fire When Washed",
-    "MP Resigns After Stealing Sandwich, Claims Act Was \"Social Experiment\"",
-    "Teen has vaccinations after asking Reddit",
-    "Avatar 2 will capture the thrill of hiding under a bed while your parents fight",
-    "One Michigan company is 'gifting' people with marijuana for their book purchases",
-    "Former White House Adviser Continues Fueling QAnon Conspiracy Theory That Ruth Bader Ginsburg is Dead After Her Return to Work",
-    "Nixon Foundation distances itself from Roger Stone after Mueller indictment",
-    "Secret mic in Nest gear wasn't supposed to be a secret, says Google, we just forgot to tell anyone",
-    "Snow go: Canadian winter festival cancelled because of snow",
-    "Woman in UAE seeks divorce after husband forgets her burger",
-    "Last local paper shuts so elderly ring MP for news",
-    "Grand Canyon Museum Reportedly Had Buckets Of Uranium Sitting Around For 18 Years",
-    "Company in China that paid debt in ham instead of cash is running low on pigs",
-    "North Carolina toddler who was missing for 3 days says he ‘hung out with a bear’",
-    "Portland’s Worst Day of the Year Ride postponed because of bad weather",
-    "Man threw meth-fueled 'death party' for his wife before she died, deputies say",
-    "Man regrets writing note on his truck offering ‘any girl 18-45′ a free place to stay",
-    "Cleveland Man Punches His Lawyer in Face after Being Sentenced to 45 Years for Pistol-whipping Girlfriend",
-    "Towson University police warn of a woman on the loose, looking for a date for her son",
-    "LDS missionaries can now call home weekly. Some parents worry new policy is too lax.",
-    "North Korea launches clothing line that can be eaten to \"avoid starvation\"",
-    "Man steals ring from Portland pawn shop, tries to sell it back 24 hours later",
-    "New York City man seen shattering lingerie store window, taking Barack Obama mannequin",
-    "More than 11,000 at Microsoft said to be ensnared in \"reply all\" email loop",
-    "Labour MP quits party because it's 'racist', immediately refers to 'people who are a funny tinge' during BBC interview",
-    "Robbers in clown masks had machetes, so grandma beat them with a scooter, Texas cops say",
-    "Ariana Grande mistakenly gets 'bbq grill' tattoo instead of '7 Rings' on her palm",
-    "Rams tackle on Super Bowl: ‘At the end of the day we’re all gonna die’",
-    "Bill Cosby's spokesman says the comedian thinks prison is an 'amazing experience'",
-    "Scientists say bees can do basic math",
-    "Possum was living in unused, $1 million taxpayer-funded bus",
-    "Church members fling 'holy water' at cops trying to rescue chained man",
-    "Mountain lion killer says watching his pet cat play helped to save his life",
-    "Vegans strike deal with abattoir to give cows 'last rites' before they arrive at slaughterhouse",
-    "Man using hot charcoal to warm vehicle instead starts fire, officials say",
-    "German Woman Claims Boeing 737-800 As Her Boyfriend and Future Husband",
-    "Virginia lawmaker says she wouldn’t have co-sponsored controversial abortion bill if she had read it closely",
-    "Chimps use branch to make ladder, escape Belfast Zoo",
-    "‘All the Indian people’ in town cost me re-election, George Washington impersonator says",
-    "Dead US mayor makes it through to final round in election",
-    "This Russian Captain Used to Beat His Soldiers With Dildos",
-    "Zuckerberg, forgetting about Facebook's Portal: 'We definitely don't want a society where there's a camera in everyone's living room'",
-    "The Man Who Liked the DMV Too Much: Employees Say Stalker Wouldn’t Stop Buying Pizzas",
-    "Don't lick ice cream, advises Turkish etiquette course",
-    "Senators ask Facebook why it tricked kids into spending parents’ money",
-    "The typo that led a man to a stranger's stag party",
-    "Woman charged with neglecting dogs while in jail",
-    "Adelaide publican lives to regret offering free beer if it hit 45 degrees",
-    "Valve Updated SteamVR Tracking Because ‘Beat Saber’ Players Were Too Fast",
-    "Boston cop on leave after service weapon allegedly stolen by strippers",
-    "Only Christians Show up for Planned Luciferian March",
-    "CBC president compares Netflix influence to colonialism",
-    "Police: Woman drove drunk on vanilla extract",
-    "'Moms are getting excited': Girl Scout markets cookies with picture of Jason Momoa",
-    "Maine man says one of his multiple personalities is responsible for downloading child porn, documents say",
-    "Manitoba driver throws speeding ticket out the window, gets littering ticket",
-    "Florida Taco Bell evacuated after fisherman finds grenade, drives to restaurant before calling 911: Police",
-    "Activists launch GoFundMe to pay HBCU students to look for 'racist' photos in Virginia lawmakers' yearbooks",
-    "Emoji licence plates launch in Australia",
-    "Guns in Churches: Virginia Lawmakers Pushing Bill To Permit Worshippers To Pack Heat In Churches",
-    "A Bill in the Utah Legislature Would Let Churches Apologize for Abuse Without Admitting Guilt",
-    "Bed bugs falling from lawyer’s clothing forced Oklahoma courthouse to close",
-    "Zoo Cut Lion's Claws So She'd Be Friendly, Could Play With Child Visitors",
-    "Melbourne restaurant 'Pablo's Escoburgers' won’t change its name despite uproar",
-    "Artworks allegedly by Adolf Hitler fail to sell at Nuremberg auction",
-    "Comedian who plays Ukraine's president on TV leads real race",
-    "Campbell's Soup trademarks the word 'chunky' after years of pop culture spoofs",
-    "Louis Vuitton designed a luxury Jenga set priced at $2,400",
-    "Facebook Bans Nude Statues From Museum Exhibit Promotion",
-    "Yelp Tried to Remove Bugs On App, Artificial Intelligence Deleted Everything",
-    "Man Arrested For Licking Women's Butts After Pretending To Tie His Shoes",
-    "Man locked inside 24 Hour Fitness after closing",
-    "NYPD demands that Google's Waze app stop revealing DWI checkpoints",
-    "Street racing farm tractor impounded by police",
-    "New Mexico woman says she keeps getting pee-covered bologna from stranger",
-    "Australia's financial watchdog ASIC has come under fire for spending tens of thousands of taxpayer dollars on a logo \"tweak\".",
-    "Anti-Valentine’s Day protest march held in Tokyo by Revolutionary Alliance of Unpopular Men",
-    "Theresa May will not be flying to Brussels in Spitfire",
-    "No dough: Florida men steal empty safe at Domino's",
-    "BBC fights to stop David Attenborough being poached",
-    "500,000 cattle survived years-long drought only to die in the rain",
-    "13-year-old boy tells Siri he's going to 'shoot up a school,' charged with intimidation, police say",
-    "Tennessee law makers propose combination locks on pill bottles to fight opioid crisis",
-    "Nashville forecaster fills map with nasty comments she got for breaking in during ‘The Masked Singer’",
-    "A sinkhole turned out to be an underground tunnel to a Florida bank",
-    "Burning Man Disinvites Super-Elite Camp for Extremely Fancy People",
-    "News-writing robots may be the future of Jewish news, according to a news-writing robot",
-    "Youth football team forced off home pitch after giant image of man’s genitals burnt into ground",
-    "YouTube stars the Dolan Twins ask fans not to treat father's funeral as a meet-up",
-    "David Davis: Pound plummeting under a no-deal Brexit 'might not be such a bad thing'",
-    "Children are using an unhealthy amount of toothpaste, CDC warns",
-    "Don't kiss your hedgehog: US health officials' warning after salmonella spike",
-    "Chuck Norris hosting 5K where runners dress up like him",
-    "Springfield board shuts down downtown package store after learning that manager died 3 years ago",
-    "Pilot on test flight spells out ‘I’m Bored’ across Mid North in letters dozens of kilometres long",
-    "Chase on San Diego freeways ends in standoff with Star Wars stormtrooper",
-    "Virginia Man Arrested For Projecting Porn on Garage Door",
-    "Lacrosse player being forced to sit because there's not a helmet big enough to protect his head",
-    "Blind Woman Asked to Remove Guide Dog From Bus For Being Black",
-    "Arizona pushes to declare porn a public health crisis",
-    "NYC Woman Says She Mistakenly Took Stranger Off Life Support",
-    "First human Mars mission may need onboard comedians",
-    "New sign warns road users of errant octopuses",
-    "Police ask criminals not to commit crimes because it's too cold",
-    "Trader says he has ‘no money at risk,’ then promptly loses almost 2,000%",
-    "After Police Raid ‘Illegal Strip Club,’ N.C. Man Says Wife and Daughter Used Pole in ‘Man Cave’ to Exercise",
-    "Alexa responds to minister’s sermon, orders toilet paper",
-    "Fire claims warehouse of St. Louis company that specializes in cleaning up fire damage",
-    "Britain's most senior police officer Cressida Dick admits she cannot smell cannabis",
-    "Samsung is trying to turn your refrigerator into Tinder",
-    "Transracial Couple Believes Their Baby Will Be Born Black",
-    "Tipster smoking pot finds tiger in abandoned house",
-    "Zoo Holds Contest For You To Name A Snake After Your Ex",
-    "Iran bans dogs from riding in cars and public walks in Tehran",
-    "64 Detroit police officers criminally charged since 2016",
-    "Gun-wielding carjacker offers Albertan her lunch and phone before apologizing, fleeing crash scene",
-    "As ice melts, Greenland could become big sand exporter: study",
-    "How did the police know you were near a crime scene? Google told them",
-    "Man stops Mumbai cop for riding without helmet, ends up in jail",
-    "Universal Orlando now has a butt-naked troll that farts glitter",
-    "From backscrubber sword to scooter toilet, China's 'Useless Edison' goes viral",
-    "Insect-loving guy confesses he 'dated' a cockroach, ate it when it died",
-    "Firefighters in California rescue a mountain lion stuck in a tree",
-    "These Indians don’t want you to have babies because life is terrible",
-    "Student dies after eating five day old pasta that had been left out",
-    "Denmark builds anti-pig border fence",
-    "No one knows who owns the ghost plane abandoned at Madrid airport",
-    "Olive Garden offering breadstick bouquets for Valentine's Day",
-    "German town Hilgermissen votes to reject naming streets",
-    "Arizona considers declaring porn a public health crisis",
-    "Man accused of stealing car from elderly couple, returning it every night",
-    "farmer felt sad while driving his lambs to slaughter so gave them to a sanctuary",
-    "Baltimore officials propose 30-day jail terms for riding electronic scooters too fast",
-    "Georgian vegan cafe attacked by 'sausage-wielding nationalists'",
-    "Man mistakenly gets wife turnips instead of tulips",
-    "Tinder-style app for cows tries to help the meat market",
-    "NWS reminds pet owners to watch out for small dogs during wind advisories with unofficial “Small Dog Warning”",
-    "Lufthansa sues passenger who missed his flight",
-    "Seals take over California beach closed in US shutdown",
-    "Teachers to be offered cash to stay in school",
-    "Wareham officials ask residents to stop trying to feed seals peanut butter and jelly sandwiches",
-    "Russia bans smartphones for soldiers over social media fears",
-    "Deadly ‘zombie’ deer disease could possibly spread to humans, experts warn",
-    "Minister says: ‘R Kelly ruined my cruise’",
-    "Contraband smugglers use potato guns after prisons spend millions on netting, SCDC says",
-    "Beer before wine not fine, scientists find after vomit-filled tests",
-    "Couple finds rare half-male, half-female cardinal",
-    "Police: Man Hijacked DART Bus, Forced Driver to Take Him to Police Station",
-    "Build a wall, wild boar will fall: Denmark erects barrier to keep out German pigs",
-    "Man goes to dog park covered in peanut butter.",
-    "Police: Driver tried to pass off Camel cigarette box for state inspection sticker",
-    "Insys executives used rap video to push sales of potentially lethal opioid",
-    "Woman arrested after barking at police K9",
-    "Belarus Will Never Send 'Bad Vodka' to the Russians, Lukashenko Promises Putin",
-    "YouTuber charged with stealing cup of tea",
-    "Heathrow stockpiling rubber gloves from EU for post-Brexit searches",
-    "You Can Now Finally Spend The Night In A Hotel Shaped Like A Bum Hole",
-    "Bolsonaro government reveals plan to develop the ‘Unproductive Amazon’",
-    "Canadians Play An Impromptu Hockey Game In The Middle Of The Highway While Stuck In Traffic (VIDEO)",
-    "China Finally Bans Smoking In The Cockpit",
-    "McDonald's French Fries Could Cure Baldness",
-    "Heinz Came Out With Ketchup Caviar Just In Time For Valentine’s Day",
-    "Death of Count of Paris sparks pretend game of thrones in France",
-    "New AI can work out whether you're gay or straight from a photograph",
-    "Grand Canyon tourists reportedly exposed for years to radiation",
-    "Bathroom warning mistaken for bomb threat at Home Depot",
-    "Sheriff suspends law enforcement due to lack of funding",
-    "A female MP in Tanzania has called for checks to determine whether or not her male colleagues have undergone circumcision - a procedure known to reduce the risk of HIV transmission.",
-    "Colorado runner mauled by mountain lion choked animal to death",
-    "Stranger repeatedly delivers unwanted bologna",
-    "Kauai: World’s Biggest Solar Power Plant Relies On A Flock Of Sheep",
-    "'I caught a man having a poo in the car park. He ran off laughing, then hit me with his van\"",
-    "Chimpanzees escape Belfast Zoo enclosure with makeshift ladder",
-    "Dina Lohan reveals she's never met boyfriend of 5 years, but is 'going to marry him'",
-    "Postcards sent from Galapagos Islands take 30 years to arrive",
-    "Utah man hears burglar in home, fights him off with BBQ fork",
-    "When it’s this cold, Chicago sets its train tracks on fire",
-    "Australia to plant 1 billion trees to help meet climate targets",
-    "Cambridge time expert fears sundials are 'old hat'",
-    "White House aggressively hunting \"executive time\" leaker who embarrassed Trump by revealing empty schedule",
-    "Sausage museum plan at ex-Nazi camp sparks outcry in Germany",
-    "More than 36,000 pounds of Tyson chicken nuggets recalled because they may contain rubber",
-    "British Museum Director: “Greece Not Legal Owner of Parthenon Marbles”",
-    "UKIP announces that it ‘stands with PewDiePie’",
-    "Science: Several U.S. States, Led by Florida, Are Flatter Than a Pancake",
-    "Curvy, sexy Ugandan women named new tourist attraction",
-    "Norwegian politician may travel to Canada for possible moose statue summit",
-    "Halloween Monsters at Dorney Park Scared Her Daughter; Now She's Suing",
-    "Police issue warning to A5 motorists passing Bethesda dragon",
-    "Dallas HS basketball star was actually 25 years old",
-    "Daily Mail demands browser warning U-turn",
-    "Saxophonist wanted to set the mood for bird breeding",
-    "Man sentenced to read Erdogan's biography after insulting him",
-    "Blind Veteran Finds Solace in Landscape Photography",
-    "Fred the emu adopts farming family and helps out with the mustering",
-    "Arizona lawmaker pushes porn tax to pay for Trump's border wall",
-    "It’s so cold in the parts of the Midwest, they can’t deliver beer",
-    "Privacy: We Can't Just Assume that Facebook Will Do Its Best",
-    "Man ordered to pay $1 fine in scheme to bilk veterans out of pensions",
-    "Sydney Opera House enlists dogs to protect diners from seagulls",
-    "Atlanta stadium to keep food prices cheap during Super Bowl, which costs $3,300 to attend",
-    "Ted Cruz pushes for El Chapo to pay for the wall after drug lord's conviction",
-    "High Scores, Higher Charges: Teen Racks Up $13K Xbox Bill",
-    "Darude to represent Finland at Eurovision 2019",
-    "Sailor charged with trying to set fire to his urine sample",
-    "This Woman Used Her Own Vaginal Fluids as Perfume to Try to Attract Men",
-    "Hungry bear goes for ride after getting stuck on truck hauling garbage",
-    "Donald Trump's spritual adviser Paula White suggests people send her their January salary or face consequences from god.",
-    "Bald hedgehog gets stress-busting massages",
-    "Russia may be forced to aim weapons at Washington, suggests Putin",
-    "The City of Burnaby is warning dumb people to not be dumb in cold weather",
-    "‘Team Fortress 2’ YouTuber Returns After Faking Death, Calls It ‘Sick Joke’",
-    "Cindy McCain claimed she thwarted human trafficking at Sky Harbor, police say she didn't",
-    "Hulu or Netflix: Which Fyre Festival Documentary Is Right for You?",
-    "Woman in speeding car gives birth to Atom Bomb, then gets arrested",
-    "East Brunswick schools, police investigate forged letter about vaping policy",
-    "Pakistan flag 'the best toilet paper in the world' according to Google",
-    "This millennial will give up a smartphone for a year to win $100,000 in the Vitaminwater challenge",
-    "Cardi B Thanks Tom Petty for Flowers After Grammys Win Not Knowing He Died",
-    "Argentine dog gets cash reward for finding bodies",
-    "Birmingham Iron player arrested in prostitution sting out for Sunday's game with groin injury",
-    "'They're Going To Kill Her:' Man Uses BBQ Sauce Bottle To Stop Dog Attack",
-    "In Elkhart, Indiana, Another Conviction Gets Tossed. The Star Witness Was Hypnotized, a Fact the Prosecutor Concealed.",
-    "SC pastor was ‘failing as a husband,’ bought wife a Lamborghini. She blames the devil",
-    "Iceland removed own label from 17 products rather than palm oil",
-    "Maine farm's bid to save 'Game of Thrones' goats imperiled by crackdown on semen",
-    "Louisiana police department apologizes for 1993 blackface drug operation, but officers stand by tactics",
-    "'Drinkable' potato chips: the products keeping your phone grease-free",
-    "Laredo PD: Man's request to spend night in jail granted after 911 abuse",
-    "College Lacrosse Player May Be Benched Due to Big Head",
-    "Man drains phone battery playing PUBG, then attacks fiance’s brother: Cops",
-    "Reebok Admits Cunnilingus Is No Joke in Russia",
-    "Study: Giving mosquitoes diet drugs could halt human bites",
-    "Russian Woman 'Eaten by pigs' after collapsing",
-    "Poetry or prose? Russian literary dispute ends in stabbing death",
-    "Drunk Tory MP ‘grabbed mens’ bottoms to avoid falling’",
-    "Muslims demand Nike recall sneakers with design that resembles Arabic word for 'Allah’",
-    "Indian restaurant owner purchases Jet fighter to deliver food",
-    "Pittsburghers Still Feel Safer Beside Self-Driving Cars Than Those Driven By Humans",
-    "On patrol with Washington’s plastic-straw cop",
-    "Something mysterious is blocking vehicle key fobs from working in a small Alberta town",
-    "Small plane crashes at California airport with nobody inside",
-    "DC Comics drops plans for series with Jesus alongside superhero",
-    "You may soon have to give your DNA to the state and pay $250 for the privilege",
-    "HMP Nottingham inmates 'smoked' Harry Potter pages",
-    "Outcry after Uganda uses 'curvy women' to boost tourism",
-    "'Putin's Chef' Has His Fingers In Many Pies, Critics Say",
-    "Why some Japanese pensioners want to go to jail",
-    "Standoff Ends Between Unmanned Cruise Ship And Railroad Bridge",
-    "Pro-BDS congresswoman’s website created by Israeli company",
-    "Oconomowoc High School: Student distributed 'N-word' passes"
-  ],
-  "theOnionHeadlines": [
-    "‘Someone In This Room Tonight Will Be Murdered By An Illegal Immigrant,’ Announces Trump Just Before Lights Go Out",
-    "Man Too Deep Into Sentence To Avoid Saying Word He Can’t Pronounce",
-    "Weak-Willed Intellectual Infant Checks To See How Many More Pages Left In Book Chapter",
-    "Super Bowl Halftime Show Marred By Functioning Sound System",
-    "Unconstitutional Presidency: The Constitution Clearly States That It Is Illegal For A Dumb Orange Man To Be President",
-    "The Saga Continues: J.K. Rowling Has Revealed That Harry Potter Currently Suffers From Erectile Dysfunction Which He Treats Using A Proprietary Blend Of Medicinal Herbs Available For $49.99 On Rowling’s Personal Website",
-    "Loose-Knit Community Not Particularly Shattered By Teen’s Death",
-    "Annoying YouTube Algorithm Not Letting Man Forget Single Time He Watched 14 Hours Straight Of Hitler Speeches",
-    "Study Finds Carving Names Into Public Property Prolongs Relationship By 30 Or More Years",
-    "17-Year Cicadas Horrified To Learn About 9/11",
-    "Fringe Catholic Sect Doesn’t Tolerate Child Abuse",
-    "Gap Debuts New Line Of Children’s Sweaters To Clutch To Chest When Son Goes Missing",
-    "Family Mercifully Pulling Plug On Grandfather Unaware They Sending Him Directly To Hell",
-    "Study Finds 68% Of Americans Unprepared For Sudden Financial Stability",
-    "God Admits He Rarely Forgives",
-    "Pope Spends Afternoon Filling In Glory Holes All Over St. Peter’s Basilica",
-    "I Don’t Vaccinate My Child Because It’s My Right To Decide What Eliminated Diseases Come Roaring Back",
-    "Report: 96% Of Nation's Smut Consumed By Filthiest 1%",
-    "Fertility Center Asks Couple If They Want Some Cheap Eggs From A Real Fucked Up Chick",
-    "Bouncer Who’s Not That Big Must Be Fucking Crazy",
-    "Lethal Injection Least Effective Drugs Man Took While In Prison",
-    "Weird Porno Stops At Kissing",
-    "Beauty Industry Announces Massive New Initiative To Make Women Self-Conscious About Their Palms",
-    "Inclusivity Win! Marvel Is Changing The Sound That Spider-Man’s Web Shooters Make From ‘Thwip’ To ‘Mixed-Race Families’",
-    "Report: Mueller Investigation Nearly Done With First Day Of Trump Campaign",
-    "Inspiring: This Awesome Non-Profit Works To Overturn The Convictions Of Prisoners Who Don’t Like Being In Prison",
-    "Reclusive Deity Hasn’t Written A New Book In 2,000 Years",
-    "Yosemite Closed Indefinitely After Bear Spotted In Park",
-    "NYPD Deploys New Line Of Plain Clothes Cop Cars",
-    "Woman Knows To Stay Away From Certain Parts Of Own Psyche At Night",
-    "Fun Toy Banned Because Of Three Stupid Dead Kids",
-    "Mild-Mannered Reporter Suddenly Transforms Into Incredible Unemployed Man",
-    "That Was Fast: Roger Stone Has Already Had A Religious Awakening And Converted To Islam In Prison",
-    "God Completely Fucked Up After Huffing Gaseous Planet",
-    "Man Looks On Helplessly As Variants Of His Nickname Evolve And Multiply At Breakneck Speed",
-    "Dick Cheney Finally Hunts Down, Kills Man He Shot In Face In 2006",
-    "First Automated Foxconn Machine Immediately Tries To Commit Suicide",
-    "New Marijuana Study Confirms Everyone Knows You're High And You Will Be Stoned Forever",
-    "‘Fly, My Pretties,’ Says Jeff Bezos Releasing Swarm Of Amazon Drones To Hunt Down Nude Photos",
-    "Intelligent, Condescending Life Discovered In Distant Galaxy",
-    "Single Woman Has Facebook Profile Picture With Sister",
-    "Christmas Tree Still Sitting On Curb Outside Rockefeller Center",
-    "USDA Just Doing Quick Smell Tests To Inspect All The Backlogged Meat That Piled Up During Shutdown",
-    "BREAKING: Daniel Throwing His Life Away, You Should Call Him, He Dropped Out Of Wharton—Wharton, For God’s Sake",
-    "Nike Fires 8-Year-Old Shoemaker Responsible For Zion Williamson Injury",
-    "Plan For Future Still Involves Drumming For Lifehouse",
-    "If SEAL Team 6 Isn’t Using The Porn They Took From Osama Bin Laden’s Compound, I’d Be Happy To Take It Off Their Hands",
-    "NEWS IN BRIEF Copycat Criminals Continue To Mimic Liquor Store Robbery From 1822",
-    "Sex-Ed Fail: This Texas Public School Has Fired The Goat-Headed Man Who Lures Students Into The Forest To Show Them A PowerPoint About Safe Sex",
-    "U.S. To Offer Tax Incentives To Companies That Do Not Openly Make World Worse At Every Turn",
-    "Body Positivity FTW! Dove Just Released A New Ad Reminding Women That They Are So Beautiful They Could Probably Drop Out Of School And Just Rely On Their Looks From Here On Out",
-    "Seventh-Grade Class Scrambling To Piece Together Teacher’s Home Life From Desktop Background Before PowerPoint Opened",
-    "Highly Touted Terrorist Prospect Weighing Multiple Recruitment Offers",
-    "New ‘Avengers’ Fan Theory Suggests Key To Beating Thanos Could Be Nothing Because He Not Real And None Of This Exists",
-    "Depressed Groundhog Sees Shadow Of Rodent He Once Was",
-    "Unbridled Gluttony: This Hedonistic Boy Read All The Weekly Fun Facts From His School Planner In A Single Class",
-    "FEMA Recommends Americans Always Have Go-Bag Packed In Case Past Finally Catches Up With Them",
-    "Report: Average American Consumes 156 Pounds Of Sugar Per Year But Would Like To Consume Much More",
-    "Homicide Detective Wishes He Could Go One Case Without Having To Solve Elaborate Riddle",
-    "‘It’s Just A Plant, Man,’ Says Purdue Pharma CEO Waving Poppy Flower Before Opioid Lawsuit Judge",
-    "Every Baby Boomer In Country Urged To Resign After Photos Emerge Of Them In Blackface",
-    "Masked Vigilante Takes Terrorizing Black Community Into Own Hands After Local Law Enforcement Fails To Do So",
-    "Seems Extreme: Jacob Farted During Math And The Marines Wheeled Him Out Of The Classroom In One Of Those Hannibal Lecter Straitjacket Things With The Muzzle",
-    "Logitech Introduces High-Resistance Keyboard For Fitness-Minded Typists",
-    "Ann Coulter Attacks Trump For Cowardly Backing Down From Full On Race War",
-    "Car Parked With Windshield Wipers Halfway Up Offers Glimpse Of World Suspended In Time",
-    "Report: Bananas Still Most Popular Fruit For Pretending To Receive Phone Call",
-    "Man Always Makes Sure To Put Phone On Silent Before Misplacing It",
-    "Casino Reporting Steady Profits From Slot Machine That Promises Players They Will Lose",
-    "Study Finds Sedentary Lifestyle Puts Millions Of Americans At Risk Of Becoming Beautiful Just The Way They Are",
-    "Pitbull Mix Only Bites Off Half Of Toddler’s Face",
-    "Nipple Of Baby’s Bottle Pierced For Authenticity",
-    "Pedestrian Crossing Street Makes Sure To Look At Approaching Car So Driver Will Feel More Guilty If They Run Him Over",
-    "Fighting Harassment: Twitter Will Now Only Allow Users To Tweet, ‘Die, Bitch’ To Bitches Who Should Die",
-    "Online University Allows Students To Amass Crippling Debt At Own Pace",
-    "Baby Knocked Out With Cough Syrup Praised For Being Such A Good Little Traveler",
-    "Parents’ Visit Injects $66 Into Local Apartment Economy",
-    "‘No God, Please Not Now,’ Yells Rapidly Aging Tom Brady As Old Crone’s Spell Begins To Wear Off During Super Bowl",
-    "Jussie Smollett Arrives In Court Wearing Full-Body Cast",
-    "Makers Of Good Friends Cereal Not Sure How Two Pictures Of Ann Coulter Got On Box",
-    "Tumor-Covered Chester Cheetah Apologizes For Role In Marketing Dangerously Cheesy Cheetos To Children",
-    "Dad Heartbreakingly Thinks His Connections Can Help Son Find Job",
-    "Lazy Poor Person Has Never Earned Passive Income From Stock Dividends A Day In His Life",
-    "Tour Becoming One-On-One Between Guide And Man Who Knew Name Of McKinley’s Assassin",
-    "Supportive Parents Encourage Child’s Interests In Anything Within 15-Minute Drive",
-    "Alexandria Ocasio-Cortez Criticized For Preventing 25,000 New York Evictions",
-    "A Titan Of Sport: This Man At The Gym Is All-Out Sprinting On The Treadmill In Cargo Shorts While Watching Old Episodes Of ‘River Monsters’ On A Microsoft Surface Tablet",
-    "‘I Want For Nothing, Mommy’: 5 Pleasureless Gifts To Give Your Ascetic 9-Year-Old For Their Birthday",
-    "Shocking Dark Secret: The Host Of The Beloved Kids Show 'Professor Groin Pincher's Carnival Of Pleasures' Has Been Posthumously Unmasked As A Pedophile",
-    "Ultrasound Technician Asks Pregnant Woman If She’d Like To Know Baby’s Name",
-    "Jared Goff Pissed He Had To Miss Friend’s Super Bowl Party For Work",
-    "Man’s Wife Dies Of Cancer Just Like In The Movies",
-    "Girl Power! American Girl Has Released A New Doll Who Was Alive During The Civil Rights Movement But Didn’t Really Help At All",
-    "Ugly Girl Killed",
-    "Teddy Bear Feels Terrible For Sparking ‘What Are We?’ Conversation",
-    "David Crosby Shows Photo Of Dwarven Blacksmith To Barber To Give Idea Of What He Wants",
-    "‘We Will Not Repeat The Mistakes Of The 2016 Election,’ Vows Nation Still Using Internet",
-    "Trump Agrees To Wear Wire To Take Down Roger Stone",
-    "Minnesota Resident Thinking Of Finally Packing It All Up And Moving Someplace Warm Like Michigan",
-    "Crowd Feeling Kind Of Silly Now After Spending All That Time Pleading Rooftop Sniper Not To Jump",
-    "Scientists Discover Mollusks Are Next Evolutionary Stage For Humans",
-    "Aunt Scores Big With Nephews By Dropping Bombshell Story About Mom Smoking Weed As Teenager",
-    "Howard Schultz Considering Independent Presidential Run After Finding No Initial Support Among Any Voter Groups",
-    "Dog Can’t Believe Owner Left On Fucking MSNBC To Keep It Company While She At Work",
-    "College Freshman From Florida Has Never Seen People Complain About Snow For 5 Months Before",
-    "Family Unsure Why Grandmother’s Caregiver Seems Like He Actually Enjoys Spending Time With Her",
-    "Mueller Annoyed By Chipper, Overeager Adam Schiff Constantly Sending Him Evidence He’s Already Uncovered",
-    "Nurse Tells Wheelchair-Bound, Concussed Rob Gronkowski He’s At The Super Bowl With All His Friends",
-    "Report: What’s A Pretty Lady Like You Doing Around An Article Like This?",
-    "Group Of Friends Engage In Passionate, Incoherent Discussion About Current Events",
-    "Ilhan Omar Thankful For Colleagues Educating Her On Painful History AIPAC Lobbyists Have Had To Endure",
-    "Report: It The Part Of Night Where Everyone Just Sort Of Goes Around And Remembers Commercials They Liked",
-    "Taliban Agrees To Peace Deal Despite Concerns About America’s Human-Rights Record",
-    "Boring List Of 7 Trucks We Only Put Online Because It Wasn’t Too Much Work",
-    "Wealthy Teen Nearly Experiences Consequence",
-    "Pope Francis Offers Molested Kids 10% Off At Vatican City Gift Shop",
-    "Grandiose Delusion Of Own Self-Importance Only Thing Keeping CEO Alive, Doctors Say",
-    "Spacecraft Travel From All Over Galaxy To Honor End Of Opportunity Rover’s Life",
-    "Cop Just In It For The Frisking",
-    "Man Losing Respect For Incompetent Boss Who Won’t Fire Him",
-    "Karl Lagerfeld Horrified By Uninspired, Garish Tunnel Of Light Coming Toward Him",
-    "Trump Base Celebrates President For Standing Up To Constitution",
-    "Frigid Chicago Bean Shrivels Up From Below-Zero Temperatures",
-    "Kanye West Named New Face Of Yeezy",
-    "Mom Figures It About Time To Sit Down Adolescent Daughter And Explain How Weight Watchers Points Work",
-    "‘National Geographic’ Increases Ideological Diversity By Hiring First Anti-Tree-Frog Writer",
-    "Competition For 23AndMe? This New Company Lets You Send Them Your Saliva And They Will Tell You If They Like It",
-    "Beautiful Cultural Exchange: This German Student Visiting An American High School Shouted ‘My Eggs!’ After He Got Hit In The Testicles With A Football",
-    "Encouraging Teamwork: ‘Apex Legends’ Has A Button That Lets Players Easily Announce They Have Diarrhea And Won’t Be Shooting Anyone For A Few Minutes",
-    "Death Of Sailor In Iconic VJ-Day Photo Reminds Americans Of Halcyon Days When Wars Still Ended",
-    "5 Tokyo Buildings Godzilla Spared Because He Was Considering Having His Bar Mitzvah There",
-    "Chinese Man Just Glad Fuckin’ 4716 Over",
-    "Indignant Bill Belichick Evades Question By Cutting Off Reporter’s Tongue",
-    "Study: 30% Of People Who Quit Smoking Relapse After Shakily Raising Cigarette Up To Lips When Agreeing To Turn State’s Evidence",
-    "Tweet This Video At Jeff Bridges To Let Him Know That He Could’ve Done Better In ‘The Big Lebowski’",
-    "Mueller Admits A Smarter President Would’ve Totally Found Way To Stop Investigation By Now",
-    "A Sponsored Content Deal Fell Through After We Already Did The Work, So Enjoy These Brandless Pictures Of People Happy About A Blue Liquid",
-    "Tony Romo Realizes He Should Have Used Ability To Read Defenses Back When He Was Still Playing",
-    "More Dysfunction: The Secret Service Just Accidentally Shot Eric Trump After Catching Him Trying On His Dad’s Swim Trunks And Mistaking Him For An Intruder",
-    "Cold Panic Grips Stacey Abrams As Trump Begins Delivering Speech Almost Identical To One She Wrote",
-    "Authorities Swiftly Announce 1,600 Washington Dairy Cows Found Mutilated, Arranged In Pentagram Killed By Blizzard",
-    "Guests’ Chairs Tilt, Spray Water At Them During First-Ever 4D State Of The Union Address",
-    "7 Total Randos Found Dead",
-    "Use Of 'N-Word' May End Porn Star's Career",
-    "T-Mobile Announces Wireless Service Now Covers 70% Of Your Apartment",
-    "Plan B Releases New Heart-Shaped Tablets For Valentine’s Day",
-    "Winded Trump Forced To Lay Down For Last Half Of Speech",
-    "Cory Booker Apologizes To Wall Street Bankers For The Mean Things He’s Going To Have To Say About Them",
-    "Education FTW: ‘Sesame Street’ Showed Grover Laying An Egg That Elmo And Ernie Both Hatch Out Of To Teach Children Not Everything Can Be Explained With A Catchy Little Song",
-    "Local Brother-In-Law Heard You Can Make Shitload Of Money Doing That",
-    "4 Times The Harlem Globetrotters Showed Up Uninvited To My Son’s Tap Dancing Recital And Humiliated Him With Basketball Tricks",
-    "Children Of All Ages Delighted By Enslavement Of Topsy The Elephant",
-    "‘This One Means The Least Of All,’ Says Tom Brady Accepting Super Bowl Trophy",
-    "Congress Agrees To $1.3 Billion For Protective Border Fencers",
-    "Character Witness Told He Doesn’t Have What It Takes To Be Star Witness",
-    "4 Books That Would Be Better If They Weren’t About Harry Potter",
-    "Kicking, Screaming Warren Buffett Dragged From Caesars Palace After Losing Everything At Roulette Wheel",
-    "The Hidden Price Of Environmentalism: The Cup You’ve Been Reusing For Water At Home All Week Has Started To Develop A Taste",
-    "Disconcerted Woman Has No Memory Of Telling Dressing Room Attendant Her Name",
-    "This Loyal Dog Refuses To Leave A Grave That Has Peanut Butter On It",
-    "Coolest Job Ever: This Awesome Digital Media Company Hired Post Malone To Entertain Laid-Off Employees With Amazing Music While They Cleaned Out Their Desks!",
-    "Beautiful: This Organization Takes Stray Dogs Off The Street And Puts Them Really High Up In A Tree",
-    "Tweet For Everything: In 2009, Donald Trump Tweeted That Robert Mueller Is An Honest Prosecutor Who Will Lock Him Up In Prison One Day",
-    "Experts Advise Against Throwing Laptop Across Office Even Though It Will Feel Incredible",
-    "Bow Down, Bitches: Mom Just Got Her Makeup Done For Free By The Clinique Lady At Macy’s And Now She’s Strutting Through The Mall Toward Ruby Tuesday Like It’s A Goddamn Runway",
-    "Future Christian Drinking And Doing Drugs And Thinking It's One Big Joke",
-    "‘Hurry, There’s A Violent Black Woman Attacking My Daughter,’ Says Cindy McCain To Police While Watching ‘The View’",
-    "Report: It Pretty Incredible That Americans Entrusted With Driving Cars",
-    "BuzzFeed CEO Gives Laid-Off Staffers Parting GIF",
-    "Chinese Man Worried You Can’t Have Respectful Debate About How Amazing Government Is Anymore",
-    "Scientists teach Gorilla about the concept of death",
-    "Maybelline Announces It Will Stop Testing New Products On Unsuspecting Customers In The Middle Of The Night",
-    "Fanatically Devoted Nerd Could Potentially Turn On Simon Pegg At Any Moment",
-    "Inclusivity Win! The Word Problem At The End Of This Math Worksheet Has A Guy Named Alejandro In It",
-    "Totally Embarrassing: This Woman Forgot To Bring Her Monocle To Her Tap Class, And Now She Looks Like A Fool With Just Her Top Hat And Cane",
-    "‘Wait, Mr. Bezos, You Forgot Your Tax Subsidy!’ Says Andrew Cuomo Running Behind Limo",
-    "Man Under Mistaken Impression He His Own Harshest Critic",
-    "Gay Pride Parade Sets Mainstream Acceptance Of Gays Back 50 Years",
-    "Trump Admits He Assumed Roger Stone Was Already In Prison",
-    "‘Anthem’ Developers Assure Players Whiteboard With Words ‘Jetpack+Guns?’ Will Be Playable Game By Friday",
-    "Caving To Blackmail: Jeff Bezos Has Shut Down ‘The Washington Post’ After ‘The National Enquirer’ Threatened To Publish Photos Revealing He’s Bald",
-    "‘Someone In This Room Tonight Will Be Murdered By An Illegal Immigrant,’ Announces Trump Just Before Lights Go Out",
-    "Heartbreaking: This Kid Genuinely Seems Pretty Proud After His Teacher Announced That His Section Of Biology Is A Full Week Ahead Of Her Other Bio Classes",
-    "Parents’ Visit Injects $66 Into Local Apartment Economy",
-    "Jimmy Carter Concerned Desire For Fresh Faces In Democratic Party May Hurt His Chances In 2020",
-    "MTA Urges Riders To Stop Taking Disabled Passengers",
-    "‘That First Date Is Going Terribly,’ Think Diners Watching Couple Celebrate 5th Anniversary",
-    "Taco Hell",
-    "Ralph Northam Admits He Once Engaged In Pedophilia As Part Of Michael Jackson Costume",
-    "Giant Demonic Hand Bursts Out Of Ground, Drags Bill Belichick Back To Hell",
-    "Grocery Store Not Fooling Anybody By Marketing Cantaloupe As Fun Super Bowl Snack",
-    "Mavericks Retire Dirk Nowitzki’s Jersey Fully Unaware He Still On Team",
-    "Self-Care FTW! This New App Sends You Daily Reminders To Take Your Bra Off And Smoke Virginia Slims",
-    "Judge Restricts Roger Stone’s Travel Between Fox News, InfoWars Studios While Released On Bond",
-    "Dad Doesn’t Trust The Fish Here",
-    "Study: No Two People Have Listened To Same Band Since 2003",
-    "God Feeling Down In Dumps After Death Of Grandmother",
-    "Parasitic Space Worm Controlling Mark Kelly’s Body Announces Arizona Senate Bid",
-    "Farberware Releases New Nonstick Eggs",
-    "Hawaii Could Increase Legal Age Of Smoking To 100",
-    "Kavanaugh Offers Elena Kagan Pull Of Vodka From Aquafina Bottle",
-    "New ‘Avengers’ Fan Theory Suggests Key To Beating Thanos Could Be Nothing Because He Not Real And None Of This Exists",
-    "Pueblo Indians Can’t Keep Pace With Area Mom’s Appetite For Earthenware",
-    "Does The Rams’ Success Point Toward A League-Wide Trend Of Teams Drafting, Signing, And Trading For Good Players?",
-    "New Evidence Suggests President George Washington Sent Woodcut Of Penis To Secretary",
-    "Finally! Kotex Has Released A Line Of Tampons With A 15-Foot String And A Bell At The End So You Never Forget About Your Tampon",
-    "Beached Whale Trying To Hold On Until Sea Levels Rise",
-    "Heartbreaking: This Kid Is Too Young To Realize That His Friends Were Hanging Out Without Him When He Ran Into Them At The Movies, And Now He Keeps Telling His Mom How Cool It Was That He Just Saw All Of His Friends",
-    "Amy Klobuchar Pledges To Fight Everyday Americans",
-    "Hell Fucking Yes: Your White Yoga Teacher Is Throat Singing And Playing Bansuri Flute Music And If That’s Cultural Appropriation It’s All On Them But Super Fun For You",
-    "TV In L.A. Bar Switched Over To ‘American Dad’ Rerun Without Complaint",
-    "Real Life Incredible Hulk: This Man Turns Green And Goes Bald Every Time He Gets Upset",
-    "‘Follow Your Instructions, This Is All Part Of The Plan,’ Hisses Richard Nixon Tattoo Protruding From Roger Stone’s Back",
-    "Doctors Assure Recovering Patient He Has Many More Years Of Looking At Phone Ahead Of Him",
-    "Heartwarming: These Awesome Teen Volunteers Call Nursing Home Residents Once A Week To Remind Them About Swamps",
-    "Elliott Abrams Defends War Crimes As Happening Back In The ’80s When Everyone Was Doing It",
-    "Survey Finds Many Gamers Never Finished ‘Red Dead Redemption 2’",
-    "Exclusive TSA Pre-Check Allows Passengers To Fly Without Waiting For Airplane",
-    "Sean McVay Begs Mother To Let Him Stay Up To Coach Rest Of Super Bowl",
-    "Super Bowl Stadium Solemnly Stands, Places Hands Over Heart For Maroon 5 Halftime Show",
-    "Self-Defense FTW! This Woman Likes To Think That She Could Probably Hit Someone With Her Water Bottle Pretty Hard If It Came To That",
-    "Nation’s Girlfriends Admit Absolutely Everything Riding On Valentine’s Day",
-    "Report: Papa Will Be So Very Cross You’ve Lost Grandfather’s Hunting Cap",
-    "5 Mindfulness Exercises You Can Use To Remind Yourself That You’re Better Than A Frog",
-    "Trump Claims Greatest Threat Facing Nation Toys Coming To Life While Owner Not In Room",
-    "Sort Of Heartwarming: These Amazing Students Raised Over $20,000 For Their Teacher’s Penis Enlargement Surgery",
-    "5 Fond Memories From His Undergrad Years At Duke That R2-D2 Had To Delete To Make Room For The Death Star Plans",
-    "Small Town Billionaire Fails To Make It In Big City",
-    "Zoo Posting Hourly Updates On Aphid About To Give Birth",
-    "Jimmy Carter Concerned Desire For Fresh Faces In Democratic Party May Hurt His Chances In 2020",
-    "Heartwarming: These Parents Had The Most Adorable Girth Reveal Party To Announce That They’re Having A Fat Baby",
-    "340 Million Social Security Numbers Obtained By Federal Government In Massive Personal Data Breach",
-    "Marine Biologists Train Highly Intelligent Octopus To Profitably Manage Mid-Size Aluminum Goods Supplier",
-    "Bryan Singer Celebrates ‘Bohemian Rhapsody’ Oscar Nominations By Popping Open Special Bottle Of Rohypnol",
-    "This has never made any sense.",
-    "Coworkers Agog As Employee Introduces New Shirt Into Rotation",
-    "Trump Offers Clear, Historical Precedent For Deploying U.S. Military With No Provocation",
-    "Sighing Banksy Methodically Kills Another Few Kids Who Stumbled Upon Him Doing Graffiti",
-    "Nation Horrified To Discover Cory Booker Already A Senator",
-    "A Love That Transcends Time And Space: This Elderly Couple Died Within 8 Years Of Each Other",
-    "Southern Poverty Law Center Admits They Have No Idea How Dannon Yogurt Company Got On Annual List Of Hate Groups",
-    "Allergy Sufferer Dies After Being Stung By Dog",
-    "Pope Breaks Ice At Clergy Abuse Summit By Having Everyone Go Around And Say How Many Kids They Molested",
-    "An Authentic Experience: Peloton Is Manufacturing An Indoor Exercise Bike That Will Have The Exact The Same Rate Of Accidental Death As Riding A Bike Outside",
-    "Coca-Cola Releases New Orange Vanilla Flavor",
-    "Heartbreaking: This Man Works For A Website",
-    "This Actually Good News, Contractor Reveals, Because Now You Know The Real Problem",
-    "I Was There When Tommy Lee Honked A Boat Horn With His Penis In The Sex Tape He Made With Pamela Anderson And I Did Nothing",
-    "Study: Vaping Better Aid To Quit Smoking Than Gum Or Patches",
-    "Bryce Harper Asks If Phillies Willing To Move To Another City",
-    "Horribly Depressed Zookeeper Has Always Had Special Connection With Animals",
-    "‘Now That’s What I Call A Fumble,’ Reports Man At Super Bowl Party Who Has No Idea What He’s Talking About",
-    "Art Of The Craft: Former Burglar Shares His Secrets For Breaking Into Homes",
-    "Beautiful: Jerry Stiller Called This Terminally Ill Child At 3 A.M. Last Night To Tell Her An Idea He Had For A New Type Of Sushi Roll",
-    "Man Competitive About How Depressed He Is",
-    "Foodies Rejoice! This Chef Make A Hamburger!!!",
-    "Yosemite Expands Lodging Accommodations With New Log Cabin High-Rises",
-    "Woman Wakes Husband Up On Valentine’s Day With Hot Surprise Blowtorch",
-    "Sensei’s Assistant Really Getting His Ass Whipped",
-    "Heartbreaking Backstory: 6 Luxury Dog Houses Yoda Looked At But Couldn’t Afford",
-    "Pentagon Allocates $600,000 For Actual Gun Used In ‘Scarface’",
-    "Department Of Transportation Announces New Highway Concert Series",
-    "Adam Silver Sends League-Wide Memo Just Asking Players Where The Fuck They Want To Play",
-    "Nation's Celebrities Not Famous Enough, Publicists Agree",
-    "Nancy Pelosi Signals Support For Environmental Causes By Placing Green New Deal Directly Into Recycling Bin",
-    "City Of Boston Erects New Plaque Commemorating Spot Where Ben Affleck Will Die",
-    "'Chapter 1: Clark,' Reports Awful Manuscript",
-    "Anne Hathaway Said What?!",
-    "Child Getting Pretty Cozy With Stranger’s Leg",
-    "Democrats Pick Georgia’s Stacey Abrams To Give State Of The Union Rebuttal",
-    "Teen Weirded Out After Running Over English Teacher Outside Of School",
-    "Biggest Snubs In Oscars History",
-    "Trump Confirms All Violent Options On The Table In Venezuela",
-    "Passenger Glued To Airplane Window Like It Fucking 1956",
-    "Climatologists Find Pitchers And Catchers Reporting Further South Every Spring",
-    "5 AMBER Alerts That Were Sent Out That Were Clearly More Focused On How Sweet The Car Was",
-    "Boss Makes Lipstick Prints On Paychecks For Valentine’s Day",
-    "Angry, Ranting Twitter User Really Needs To Move Out Of Parents’ Basement",
-    "We Predict Who Will Watch The Grammys This Sunday",
-    "Buzz Aldrin Said What?!",
-    "Hot Hot Hollywood: Tim Cook And Malala Yousafzai Were Spotting Together Dragging Their New Bunk Bed Down The Santa Monica Freeway",
-    "Study: 80% Of Waking Hours Spent Plotting Revenge",
-    "Disney Announces ‘Kingdom Hearts III’ Will Feature Ernest, Turner, Hooch, And All The Rest Of Your Favorite Touchstone Pictures Characters",
-    "E.L. James Admits New Erotic Novel Originally ‘Tiny Toons’ Fan Fiction",
-    "Overstepping Their Bounds: CNN Has Begun Sending Way-Too-Casual Push Notifications Announcing They’re Tired And Can’t Wait For The Weekend",
-    "Self-Conscious Puppet Has No Idea What To Do With Hands",
-    "Sweating CornNuts VP Stammers Way Through Pitch For ‘Nutsarito’ At Taco Bell",
-    "Why Can’t I Sell Any of These Fucking Bibles?",
-    "5 Things To Know About ‘Anthem’",
-    "7 Fjords I Would Like To Take Your Family To See Without You",
-    "Due to over crowding and traffic issues in Yosemite, massive construction ensues.",
-    "Pros And Cons Of Salary Transparency",
-    "Suicide Rates Falling Worldwide",
-    "Top Democrats Call On Virginia Governor To Resign",
-    "Area Man Consults Internet Whenever Possible",
-    "Pajama-Clad Child Makes Turbulent Rampage Through Dinner Party",
-    "Tips For Getting Unsafe Elderly Drivers Off The Road",
-    "Alcoholic Father Granted Posthumous Sainthood By Catholic Family",
-    "Most people don’t know this!",
-    "New Biodiversity Program Busses In Species From Outside Ecosystems"
-  ]
-}
+[{
+    "category": "nottheonion",
+    "headline": "Ben Affleck finally achieves lifelong dream of not having to play Batman anymore"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "American parents say their children are speaking in British accent after watching too much Peppa Pig"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Anti-vaccine advocates appointed to Minnesota autism council after measles outbreak"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Billionaire Howard Schultz is very upset you’re calling him a billionaire"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Store closes after Nike boycott: 'More Colin Kaepernick fans than I realized'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Pablo's Escoburgers restaurant draws backlash for name, serving hamburger with line of fake cocaine"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "BBC made Russell Howard rewrite a joke - in case it offended Isis"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Wisconsin high school cheerleaders received awards for biggest breasts, butt at banquet"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Twitter CEO says Mark Zuckerberg once killed a goat with a stun gun and served it to him for dinner"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "As measles outbreak spreads, one anti- vaxxer asks how to keep her child safe"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Hundreds rally to preserve right not to vaccinate children amid measles outbreak"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Shopworker stole £1,500 worth of scratchcards — and didn't win ANYTHING"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Sam Elliott on his Oscar nod: \"It's about fucking time\""
+  },
+  {
+    "category": "nottheonion",
+    "headline": "UAE's gender equality awards won entirely by men"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Canadian woman writes own obituary, says she has ‘smoking hot body she always wanted’ after being cremated"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "This Saints fan was 'determined' not to watch the Super Bowl, his obit says. He died just hours before the game"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Murder suspect tries to turn himself in at New Orleans jail, but deputies demand proper ID"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Microsoft security chief: IE is not a browser, so stop using it as your default"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Hawaii lawmaker proposes banning sale of cigarettes to anyone under 100-years-old"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Netflix Asks Viewers to Stop Calling Ted Bundy 'Hot'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Gillibrand campaign event interrupted by woman seeking ranch dressing"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "National Weather Service Issues ‘Small Dog Warning’ Due to High Winds"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "John McAfee is running from U.S. authorities – and running for President. On a boat."
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Woman dressed as gorilla cop helps police catch sex pest"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Inmate saves baby from locked SUV using his car theft skills"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Reddit users are the least valuable of any social network"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Arkansas man, 19, admits trying to steal plane to see rap concert"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "North Korea Launches Clothing Line That Can Be Eaten to 'Avoid Starvation'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "The former Apple lawyer who was supposed to keep employees from insider trading has been charged with insider trading"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Insys executive gave doctor lap dance while promoting drug, witness says"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Record private jet flights into Davos as leaders arrive for climate talk"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Women's panel says it's fed up with women-only panels and wants more men"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Canadians stuck in 70-car pileup play hockey on highway"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Lightsaber Dueling Is Now Recognized As a Competitive Sport in France. No, Really"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Americans ‘very Satisfied’ With Personal Lives Unless They’re Young or Not White"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "British Lord suggests recolonizing Zimbabwe to end crisis"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Immigration play cancelled because actor failed to apply for a travel visa"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Russia Proposes Easing Laws On Corruption, Saying It's Unavoidable Sometimes"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man wins fit-for-work appeal seven months after his death"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Snow should cancel crime and ‘doing really dumb things,’ North Alabama police advise"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Self-described 'Worst Mom in the World' Accidentally Donates Son's Mug With $6,500 Stashed Inside to Goodwill"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Burn Injuries From Viral Boiling Water Challenge Sending People To The Hospital"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "South Korean parents hire thugs to stop school bullies"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Cashier stops robbery by striking suspect with banana"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Celebrity groundhogs fail to agree on when spring will arrive"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Female German referee causes Bundesliga broadcast to be canceled in Iran"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Almost 500 crocodiles to be relocated to protect tourists at world's tallest statue"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Secret Service members create challenge coin for working without pay"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Judge to watch ‘extreme’ pornography in preparation for trial"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Honda Recalling Pickups For Catching Fire When Washed"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "MP Resigns After Stealing Sandwich, Claims Act Was \"Social Experiment\""
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Teen has vaccinations after asking Reddit"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Avatar 2 will capture the thrill of hiding under a bed while your parents fight"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "One Michigan company is 'gifting' people with marijuana for their book purchases"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Former White House Adviser Continues Fueling QAnon Conspiracy Theory That Ruth Bader Ginsburg is Dead After Her Return to Work"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Nixon Foundation distances itself from Roger Stone after Mueller indictment"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Secret mic in Nest gear wasn't supposed to be a secret, says Google, we just forgot to tell anyone"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Snow go: Canadian winter festival cancelled because of snow"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Woman in UAE seeks divorce after husband forgets her burger"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Last local paper shuts so elderly ring MP for news"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Grand Canyon Museum Reportedly Had Buckets Of Uranium Sitting Around For 18 Years"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Company in China that paid debt in ham instead of cash is running low on pigs"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "North Carolina toddler who was missing for 3 days says he ‘hung out with a bear’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Portland’s Worst Day of the Year Ride postponed because of bad weather"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man threw meth-fueled 'death party' for his wife before she died, deputies say"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man regrets writing note on his truck offering ‘any girl 18-45′ a free place to stay"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Cleveland Man Punches His Lawyer in Face after Being Sentenced to 45 Years for Pistol-whipping Girlfriend"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Towson University police warn of a woman on the loose, looking for a date for her son"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "LDS missionaries can now call home weekly. Some parents worry new policy is too lax."
+  },
+  {
+    "category": "nottheonion",
+    "headline": "North Korea launches clothing line that can be eaten to \"avoid starvation\""
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man steals ring from Portland pawn shop, tries to sell it back 24 hours later"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "New York City man seen shattering lingerie store window, taking Barack Obama mannequin"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "More than 11,000 at Microsoft said to be ensnared in \"reply all\" email loop"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Labour MP quits party because it's 'racist', immediately refers to 'people who are a funny tinge' during BBC interview"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Robbers in clown masks had machetes, so grandma beat them with a scooter, Texas cops say"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Ariana Grande mistakenly gets 'bbq grill' tattoo instead of '7 Rings' on her palm"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Rams tackle on Super Bowl: ‘At the end of the day we’re all gonna die’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Bill Cosby's spokesman says the comedian thinks prison is an 'amazing experience'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Scientists say bees can do basic math"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Possum was living in unused, $1 million taxpayer-funded bus"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Church members fling 'holy water' at cops trying to rescue chained man"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Mountain lion killer says watching his pet cat play helped to save his life"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Vegans strike deal with abattoir to give cows 'last rites' before they arrive at slaughterhouse"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man using hot charcoal to warm vehicle instead starts fire, officials say"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "German Woman Claims Boeing 737-800 As Her Boyfriend and Future Husband"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Virginia lawmaker says she wouldn’t have co-sponsored controversial abortion bill if she had read it closely"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Chimps use branch to make ladder, escape Belfast Zoo"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "‘All the Indian people’ in town cost me re-election, George Washington impersonator says"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Dead US mayor makes it through to final round in election"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "This Russian Captain Used to Beat His Soldiers With Dildos"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Zuckerberg, forgetting about Facebook's Portal: 'We definitely don't want a society where there's a camera in everyone's living room'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "The Man Who Liked the DMV Too Much: Employees Say Stalker Wouldn’t Stop Buying Pizzas"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Don't lick ice cream, advises Turkish etiquette course"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Senators ask Facebook why it tricked kids into spending parents’ money"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "The typo that led a man to a stranger's stag party"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Woman charged with neglecting dogs while in jail"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Adelaide publican lives to regret offering free beer if it hit 45 degrees"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Valve Updated SteamVR Tracking Because ‘Beat Saber’ Players Were Too Fast"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Boston cop on leave after service weapon allegedly stolen by strippers"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Only Christians Show up for Planned Luciferian March"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "CBC president compares Netflix influence to colonialism"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Police: Woman drove drunk on vanilla extract"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "'Moms are getting excited': Girl Scout markets cookies with picture of Jason Momoa"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Maine man says one of his multiple personalities is responsible for downloading child porn, documents say"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Manitoba driver throws speeding ticket out the window, gets littering ticket"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Florida Taco Bell evacuated after fisherman finds grenade, drives to restaurant before calling 911: Police"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Activists launch GoFundMe to pay HBCU students to look for 'racist' photos in Virginia lawmakers' yearbooks"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Emoji licence plates launch in Australia"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Guns in Churches: Virginia Lawmakers Pushing Bill To Permit Worshippers To Pack Heat In Churches"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "A Bill in the Utah Legislature Would Let Churches Apologize for Abuse Without Admitting Guilt"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Bed bugs falling from lawyer’s clothing forced Oklahoma courthouse to close"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Zoo Cut Lion's Claws So She'd Be Friendly, Could Play With Child Visitors"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Melbourne restaurant 'Pablo's Escoburgers' won’t change its name despite uproar"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Artworks allegedly by Adolf Hitler fail to sell at Nuremberg auction"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Comedian who plays Ukraine's president on TV leads real race"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Campbell's Soup trademarks the word 'chunky' after years of pop culture spoofs"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Louis Vuitton designed a luxury Jenga set priced at $2,400"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Facebook Bans Nude Statues From Museum Exhibit Promotion"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Yelp Tried to Remove Bugs On App, Artificial Intelligence Deleted Everything"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man Arrested For Licking Women's Butts After Pretending To Tie His Shoes"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man locked inside 24 Hour Fitness after closing"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "NYPD demands that Google's Waze app stop revealing DWI checkpoints"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Street racing farm tractor impounded by police"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "New Mexico woman says she keeps getting pee-covered bologna from stranger"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Australia's financial watchdog ASIC has come under fire for spending tens of thousands of taxpayer dollars on a logo \"tweak\"."
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Anti-Valentine’s Day protest march held in Tokyo by Revolutionary Alliance of Unpopular Men"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Theresa May will not be flying to Brussels in Spitfire"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "No dough: Florida men steal empty safe at Domino's"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "BBC fights to stop David Attenborough being poached"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "500,000 cattle survived years-long drought only to die in the rain"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "13-year-old boy tells Siri he's going to 'shoot up a school,' charged with intimidation, police say"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Tennessee law makers propose combination locks on pill bottles to fight opioid crisis"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Nashville forecaster fills map with nasty comments she got for breaking in during ‘The Masked Singer’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "A sinkhole turned out to be an underground tunnel to a Florida bank"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Burning Man Disinvites Super-Elite Camp for Extremely Fancy People"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "News-writing robots may be the future of Jewish news, according to a news-writing robot"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Youth football team forced off home pitch after giant image of man’s genitals burnt into ground"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "YouTube stars the Dolan Twins ask fans not to treat father's funeral as a meet-up"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "David Davis: Pound plummeting under a no-deal Brexit 'might not be such a bad thing'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Children are using an unhealthy amount of toothpaste, CDC warns"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Don't kiss your hedgehog: US health officials' warning after salmonella spike"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Chuck Norris hosting 5K where runners dress up like him"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Springfield board shuts down downtown package store after learning that manager died 3 years ago"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Pilot on test flight spells out ‘I’m Bored’ across Mid North in letters dozens of kilometres long"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Chase on San Diego freeways ends in standoff with Star Wars stormtrooper"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Virginia Man Arrested For Projecting Porn on Garage Door"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Lacrosse player being forced to sit because there's not a helmet big enough to protect his head"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Blind Woman Asked to Remove Guide Dog From Bus For Being Black"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Arizona pushes to declare porn a public health crisis"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "NYC Woman Says She Mistakenly Took Stranger Off Life Support"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "First human Mars mission may need onboard comedians"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "New sign warns road users of errant octopuses"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Police ask criminals not to commit crimes because it's too cold"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Trader says he has ‘no money at risk,’ then promptly loses almost 2,000%"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "After Police Raid ‘Illegal Strip Club,’ N.C. Man Says Wife and Daughter Used Pole in ‘Man Cave’ to Exercise"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Alexa responds to minister’s sermon, orders toilet paper"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Fire claims warehouse of St. Louis company that specializes in cleaning up fire damage"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Britain's most senior police officer Cressida Dick admits she cannot smell cannabis"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Samsung is trying to turn your refrigerator into Tinder"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Transracial Couple Believes Their Baby Will Be Born Black"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Tipster smoking pot finds tiger in abandoned house"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Zoo Holds Contest For You To Name A Snake After Your Ex"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Iran bans dogs from riding in cars and public walks in Tehran"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "64 Detroit police officers criminally charged since 2016"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Gun-wielding carjacker offers Albertan her lunch and phone before apologizing, fleeing crash scene"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "As ice melts, Greenland could become big sand exporter: study"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "How did the police know you were near a crime scene? Google told them"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man stops Mumbai cop for riding without helmet, ends up in jail"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Universal Orlando now has a butt-naked troll that farts glitter"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "From backscrubber sword to scooter toilet, China's 'Useless Edison' goes viral"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Insect-loving guy confesses he 'dated' a cockroach, ate it when it died"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Firefighters in California rescue a mountain lion stuck in a tree"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "These Indians don’t want you to have babies because life is terrible"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Student dies after eating five day old pasta that had been left out"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Denmark builds anti-pig border fence"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "No one knows who owns the ghost plane abandoned at Madrid airport"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Olive Garden offering breadstick bouquets for Valentine's Day"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "German town Hilgermissen votes to reject naming streets"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Arizona considers declaring porn a public health crisis"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man accused of stealing car from elderly couple, returning it every night"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "farmer felt sad while driving his lambs to slaughter so gave them to a sanctuary"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Baltimore officials propose 30-day jail terms for riding electronic scooters too fast"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Georgian vegan cafe attacked by 'sausage-wielding nationalists'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man mistakenly gets wife turnips instead of tulips"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Tinder-style app for cows tries to help the meat market"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "NWS reminds pet owners to watch out for small dogs during wind advisories with unofficial “Small Dog Warning”"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Lufthansa sues passenger who missed his flight"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Seals take over California beach closed in US shutdown"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Teachers to be offered cash to stay in school"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Wareham officials ask residents to stop trying to feed seals peanut butter and jelly sandwiches"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Russia bans smartphones for soldiers over social media fears"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Deadly ‘zombie’ deer disease could possibly spread to humans, experts warn"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Minister says: ‘R Kelly ruined my cruise’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Contraband smugglers use potato guns after prisons spend millions on netting, SCDC says"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Beer before wine not fine, scientists find after vomit-filled tests"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Couple finds rare half-male, half-female cardinal"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Police: Man Hijacked DART Bus, Forced Driver to Take Him to Police Station"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Build a wall, wild boar will fall: Denmark erects barrier to keep out German pigs"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man goes to dog park covered in peanut butter."
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Police: Driver tried to pass off Camel cigarette box for state inspection sticker"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Insys executives used rap video to push sales of potentially lethal opioid"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Woman arrested after barking at police K9"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Belarus Will Never Send 'Bad Vodka' to the Russians, Lukashenko Promises Putin"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "YouTuber charged with stealing cup of tea"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Heathrow stockpiling rubber gloves from EU for post-Brexit searches"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "You Can Now Finally Spend The Night In A Hotel Shaped Like A Bum Hole"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Bolsonaro government reveals plan to develop the ‘Unproductive Amazon’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Canadians Play An Impromptu Hockey Game In The Middle Of The Highway While Stuck In Traffic (VIDEO)"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "China Finally Bans Smoking In The Cockpit"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "McDonald's French Fries Could Cure Baldness"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Heinz Came Out With Ketchup Caviar Just In Time For Valentine’s Day"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Death of Count of Paris sparks pretend game of thrones in France"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "New AI can work out whether you're gay or straight from a photograph"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Grand Canyon tourists reportedly exposed for years to radiation"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Bathroom warning mistaken for bomb threat at Home Depot"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Sheriff suspends law enforcement due to lack of funding"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "A female MP in Tanzania has called for checks to determine whether or not her male colleagues have undergone circumcision - a procedure known to reduce the risk of HIV transmission."
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Colorado runner mauled by mountain lion choked animal to death"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Stranger repeatedly delivers unwanted bologna"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Kauai: World’s Biggest Solar Power Plant Relies On A Flock Of Sheep"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "'I caught a man having a poo in the car park. He ran off laughing, then hit me with his van\""
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Chimpanzees escape Belfast Zoo enclosure with makeshift ladder"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Dina Lohan reveals she's never met boyfriend of 5 years, but is 'going to marry him'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Postcards sent from Galapagos Islands take 30 years to arrive"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Utah man hears burglar in home, fights him off with BBQ fork"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "When it’s this cold, Chicago sets its train tracks on fire"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Australia to plant 1 billion trees to help meet climate targets"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Cambridge time expert fears sundials are 'old hat'"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "White House aggressively hunting \"executive time\" leaker who embarrassed Trump by revealing empty schedule"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Sausage museum plan at ex-Nazi camp sparks outcry in Germany"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "More than 36,000 pounds of Tyson chicken nuggets recalled because they may contain rubber"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "British Museum Director: “Greece Not Legal Owner of Parthenon Marbles”"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "UKIP announces that it ‘stands with PewDiePie’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Science: Several U.S. States, Led by Florida, Are Flatter Than a Pancake"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Curvy, sexy Ugandan women named new tourist attraction"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Norwegian politician may travel to Canada for possible moose statue summit"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Halloween Monsters at Dorney Park Scared Her Daughter; Now She's Suing"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Police issue warning to A5 motorists passing Bethesda dragon"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Dallas HS basketball star was actually 25 years old"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Daily Mail demands browser warning U-turn"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Saxophonist wanted to set the mood for bird breeding"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man sentenced to read Erdogan's biography after insulting him"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Blind Veteran Finds Solace in Landscape Photography"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Fred the emu adopts farming family and helps out with the mustering"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Arizona lawmaker pushes porn tax to pay for Trump's border wall"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "It’s so cold in the parts of the Midwest, they can’t deliver beer"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Privacy: We Can't Just Assume that Facebook Will Do Its Best"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man ordered to pay $1 fine in scheme to bilk veterans out of pensions"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Sydney Opera House enlists dogs to protect diners from seagulls"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Atlanta stadium to keep food prices cheap during Super Bowl, which costs $3,300 to attend"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Ted Cruz pushes for El Chapo to pay for the wall after drug lord's conviction"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "High Scores, Higher Charges: Teen Racks Up $13K Xbox Bill"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Darude to represent Finland at Eurovision 2019"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Sailor charged with trying to set fire to his urine sample"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "This Woman Used Her Own Vaginal Fluids as Perfume to Try to Attract Men"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Hungry bear goes for ride after getting stuck on truck hauling garbage"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Donald Trump's spritual adviser Paula White suggests people send her their January salary or face consequences from god."
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Bald hedgehog gets stress-busting massages"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Russia may be forced to aim weapons at Washington, suggests Putin"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "The City of Burnaby is warning dumb people to not be dumb in cold weather"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "‘Team Fortress 2’ YouTuber Returns After Faking Death, Calls It ‘Sick Joke’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Cindy McCain claimed she thwarted human trafficking at Sky Harbor, police say she didn't"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Hulu or Netflix: Which Fyre Festival Documentary Is Right for You?"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Woman in speeding car gives birth to Atom Bomb, then gets arrested"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "East Brunswick schools, police investigate forged letter about vaping policy"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Pakistan flag 'the best toilet paper in the world' according to Google"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "This millennial will give up a smartphone for a year to win $100,000 in the Vitaminwater challenge"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Cardi B Thanks Tom Petty for Flowers After Grammys Win Not Knowing He Died"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Argentine dog gets cash reward for finding bodies"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Birmingham Iron player arrested in prostitution sting out for Sunday's game with groin injury"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "'They're Going To Kill Her:' Man Uses BBQ Sauce Bottle To Stop Dog Attack"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "In Elkhart, Indiana, Another Conviction Gets Tossed. The Star Witness Was Hypnotized, a Fact the Prosecutor Concealed."
+  },
+  {
+    "category": "nottheonion",
+    "headline": "SC pastor was ‘failing as a husband,’ bought wife a Lamborghini. She blames the devil"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Iceland removed own label from 17 products rather than palm oil"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Maine farm's bid to save 'Game of Thrones' goats imperiled by crackdown on semen"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Louisiana police department apologizes for 1993 blackface drug operation, but officers stand by tactics"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "'Drinkable' potato chips: the products keeping your phone grease-free"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Laredo PD: Man's request to spend night in jail granted after 911 abuse"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "College Lacrosse Player May Be Benched Due to Big Head"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Man drains phone battery playing PUBG, then attacks fiance’s brother: Cops"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Reebok Admits Cunnilingus Is No Joke in Russia"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Study: Giving mosquitoes diet drugs could halt human bites"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Russian Woman 'Eaten by pigs' after collapsing"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Poetry or prose? Russian literary dispute ends in stabbing death"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Drunk Tory MP ‘grabbed mens’ bottoms to avoid falling’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Muslims demand Nike recall sneakers with design that resembles Arabic word for 'Allah’"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Indian restaurant owner purchases Jet fighter to deliver food"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Pittsburghers Still Feel Safer Beside Self-Driving Cars Than Those Driven By Humans"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "On patrol with Washington’s plastic-straw cop"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Something mysterious is blocking vehicle key fobs from working in a small Alberta town"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Small plane crashes at California airport with nobody inside"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "DC Comics drops plans for series with Jesus alongside superhero"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "You may soon have to give your DNA to the state and pay $250 for the privilege"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "HMP Nottingham inmates 'smoked' Harry Potter pages"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Outcry after Uganda uses 'curvy women' to boost tourism"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "'Putin's Chef' Has His Fingers In Many Pies, Critics Say"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Why some Japanese pensioners want to go to jail"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Standoff Ends Between Unmanned Cruise Ship And Railroad Bridge"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Pro-BDS congresswoman’s website created by Israeli company"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Oconomowoc High School: Student distributed 'N-word' passes"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘Someone In This Room Tonight Will Be Murdered By An Illegal Immigrant,’ Announces Trump Just Before Lights Go Out"
+  },
+  {
+    "category": "theonion",
+    "headline": "Man Too Deep Into Sentence To Avoid Saying Word He Can’t Pronounce"
+  },
+  {
+    "category": "theonion",
+    "headline": "Weak-Willed Intellectual Infant Checks To See How Many More Pages Left In Book Chapter"
+  },
+  {
+    "category": "theonion",
+    "headline": "Super Bowl Halftime Show Marred By Functioning Sound System"
+  },
+  {
+    "category": "theonion",
+    "headline": "Unconstitutional Presidency: The Constitution Clearly States That It Is Illegal For A Dumb Orange Man To Be President"
+  },
+  {
+    "category": "theonion",
+    "headline": "The Saga Continues: J.K. Rowling Has Revealed That Harry Potter Currently Suffers From Erectile Dysfunction Which He Treats Using A Proprietary Blend Of Medicinal Herbs Available For $49.99 On Rowling’s Personal Website"
+  },
+  {
+    "category": "theonion",
+    "headline": "Loose-Knit Community Not Particularly Shattered By Teen’s Death"
+  },
+  {
+    "category": "theonion",
+    "headline": "Annoying YouTube Algorithm Not Letting Man Forget Single Time He Watched 14 Hours Straight Of Hitler Speeches"
+  },
+  {
+    "category": "theonion",
+    "headline": "Study Finds Carving Names Into Public Property Prolongs Relationship By 30 Or More Years"
+  },
+  {
+    "category": "theonion",
+    "headline": "17-Year Cicadas Horrified To Learn About 9/11"
+  },
+  {
+    "category": "theonion",
+    "headline": "Fringe Catholic Sect Doesn’t Tolerate Child Abuse"
+  },
+  {
+    "category": "theonion",
+    "headline": "Gap Debuts New Line Of Children’s Sweaters To Clutch To Chest When Son Goes Missing"
+  },
+  {
+    "category": "theonion",
+    "headline": "Family Mercifully Pulling Plug On Grandfather Unaware They Sending Him Directly To Hell"
+  },
+  {
+    "category": "theonion",
+    "headline": "Study Finds 68% Of Americans Unprepared For Sudden Financial Stability"
+  },
+  {
+    "category": "theonion",
+    "headline": "God Admits He Rarely Forgives"
+  },
+  {
+    "category": "theonion",
+    "headline": "Pope Spends Afternoon Filling In Glory Holes All Over St. Peter’s Basilica"
+  },
+  {
+    "category": "theonion",
+    "headline": "I Don’t Vaccinate My Child Because It’s My Right To Decide What Eliminated Diseases Come Roaring Back"
+  },
+  {
+    "category": "theonion",
+    "headline": "Report: 96% Of Nation's Smut Consumed By Filthiest 1%"
+  },
+  {
+    "category": "theonion",
+    "headline": "Fertility Center Asks Couple If They Want Some Cheap Eggs From A Real Fucked Up Chick"
+  },
+  {
+    "category": "theonion",
+    "headline": "Bouncer Who’s Not That Big Must Be Fucking Crazy"
+  },
+  {
+    "category": "theonion",
+    "headline": "Lethal Injection Least Effective Drugs Man Took While In Prison"
+  },
+  {
+    "category": "theonion",
+    "headline": "Weird Porno Stops At Kissing"
+  },
+  {
+    "category": "theonion",
+    "headline": "Beauty Industry Announces Massive New Initiative To Make Women Self-Conscious About Their Palms"
+  },
+  {
+    "category": "theonion",
+    "headline": "Inclusivity Win! Marvel Is Changing The Sound That Spider-Man’s Web Shooters Make From ‘Thwip’ To ‘Mixed-Race Families’"
+  },
+  {
+    "category": "theonion",
+    "headline": "Report: Mueller Investigation Nearly Done With First Day Of Trump Campaign"
+  },
+  {
+    "category": "theonion",
+    "headline": "Inspiring: This Awesome Non-Profit Works To Overturn The Convictions Of Prisoners Who Don’t Like Being In Prison"
+  },
+  {
+    "category": "theonion",
+    "headline": "Reclusive Deity Hasn’t Written A New Book In 2,000 Years"
+  },
+  {
+    "category": "theonion",
+    "headline": "Yosemite Closed Indefinitely After Bear Spotted In Park"
+  },
+  {
+    "category": "theonion",
+    "headline": "NYPD Deploys New Line Of Plain Clothes Cop Cars"
+  },
+  {
+    "category": "theonion",
+    "headline": "Woman Knows To Stay Away From Certain Parts Of Own Psyche At Night"
+  },
+  {
+    "category": "theonion",
+    "headline": "Fun Toy Banned Because Of Three Stupid Dead Kids"
+  },
+  {
+    "category": "theonion",
+    "headline": "Mild-Mannered Reporter Suddenly Transforms Into Incredible Unemployed Man"
+  },
+  {
+    "category": "theonion",
+    "headline": "That Was Fast: Roger Stone Has Already Had A Religious Awakening And Converted To Islam In Prison"
+  },
+  {
+    "category": "theonion",
+    "headline": "God Completely Fucked Up After Huffing Gaseous Planet"
+  },
+  {
+    "category": "theonion",
+    "headline": "Man Looks On Helplessly As Variants Of His Nickname Evolve And Multiply At Breakneck Speed"
+  },
+  {
+    "category": "theonion",
+    "headline": "Dick Cheney Finally Hunts Down, Kills Man He Shot In Face In 2006"
+  },
+  {
+    "category": "theonion",
+    "headline": "First Automated Foxconn Machine Immediately Tries To Commit Suicide"
+  },
+  {
+    "category": "theonion",
+    "headline": "New Marijuana Study Confirms Everyone Knows You're High And You Will Be Stoned Forever"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘Fly, My Pretties,’ Says Jeff Bezos Releasing Swarm Of Amazon Drones To Hunt Down Nude Photos"
+  },
+  {
+    "category": "theonion",
+    "headline": "Intelligent, Condescending Life Discovered In Distant Galaxy"
+  },
+  {
+    "category": "theonion",
+    "headline": "Single Woman Has Facebook Profile Picture With Sister"
+  },
+  {
+    "category": "theonion",
+    "headline": "Christmas Tree Still Sitting On Curb Outside Rockefeller Center"
+  },
+  {
+    "category": "theonion",
+    "headline": "USDA Just Doing Quick Smell Tests To Inspect All The Backlogged Meat That Piled Up During Shutdown"
+  },
+  {
+    "category": "theonion",
+    "headline": "BREAKING: Daniel Throwing His Life Away, You Should Call Him, He Dropped Out Of Wharton—Wharton, For God’s Sake"
+  },
+  {
+    "category": "theonion",
+    "headline": "Nike Fires 8-Year-Old Shoemaker Responsible For Zion Williamson Injury"
+  },
+  {
+    "category": "theonion",
+    "headline": "Plan For Future Still Involves Drumming For Lifehouse"
+  },
+  {
+    "category": "theonion",
+    "headline": "If SEAL Team 6 Isn’t Using The Porn They Took From Osama Bin Laden’s Compound, I’d Be Happy To Take It Off Their Hands"
+  },
+  {
+    "category": "theonion",
+    "headline": "NEWS IN BRIEF Copycat Criminals Continue To Mimic Liquor Store Robbery From 1822"
+  },
+  {
+    "category": "theonion",
+    "headline": "Sex-Ed Fail: This Texas Public School Has Fired The Goat-Headed Man Who Lures Students Into The Forest To Show Them A PowerPoint About Safe Sex"
+  },
+  {
+    "category": "theonion",
+    "headline": "U.S. To Offer Tax Incentives To Companies That Do Not Openly Make World Worse At Every Turn"
+  },
+  {
+    "category": "theonion",
+    "headline": "Body Positivity FTW! Dove Just Released A New Ad Reminding Women That They Are So Beautiful They Could Probably Drop Out Of School And Just Rely On Their Looks From Here On Out"
+  },
+  {
+    "category": "theonion",
+    "headline": "Seventh-Grade Class Scrambling To Piece Together Teacher’s Home Life From Desktop Background Before PowerPoint Opened"
+  },
+  {
+    "category": "theonion",
+    "headline": "Highly Touted Terrorist Prospect Weighing Multiple Recruitment Offers"
+  },
+  {
+    "category": "theonion",
+    "headline": "New ‘Avengers’ Fan Theory Suggests Key To Beating Thanos Could Be Nothing Because He Not Real And None Of This Exists"
+  },
+  {
+    "category": "theonion",
+    "headline": "Depressed Groundhog Sees Shadow Of Rodent He Once Was"
+  },
+  {
+    "category": "theonion",
+    "headline": "Unbridled Gluttony: This Hedonistic Boy Read All The Weekly Fun Facts From His School Planner In A Single Class"
+  },
+  {
+    "category": "theonion",
+    "headline": "FEMA Recommends Americans Always Have Go-Bag Packed In Case Past Finally Catches Up With Them"
+  },
+  {
+    "category": "theonion",
+    "headline": "Report: Average American Consumes 156 Pounds Of Sugar Per Year But Would Like To Consume Much More"
+  },
+  {
+    "category": "theonion",
+    "headline": "Homicide Detective Wishes He Could Go One Case Without Having To Solve Elaborate Riddle"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘It’s Just A Plant, Man,’ Says Purdue Pharma CEO Waving Poppy Flower Before Opioid Lawsuit Judge"
+  },
+  {
+    "category": "theonion",
+    "headline": "Every Baby Boomer In Country Urged To Resign After Photos Emerge Of Them In Blackface"
+  },
+  {
+    "category": "theonion",
+    "headline": "Masked Vigilante Takes Terrorizing Black Community Into Own Hands After Local Law Enforcement Fails To Do So"
+  },
+  {
+    "category": "theonion",
+    "headline": "Seems Extreme: Jacob Farted During Math And The Marines Wheeled Him Out Of The Classroom In One Of Those Hannibal Lecter Straitjacket Things With The Muzzle"
+  },
+  {
+    "category": "theonion",
+    "headline": "Logitech Introduces High-Resistance Keyboard For Fitness-Minded Typists"
+  },
+  {
+    "category": "theonion",
+    "headline": "Ann Coulter Attacks Trump For Cowardly Backing Down From Full On Race War"
+  },
+  {
+    "category": "theonion",
+    "headline": "Car Parked With Windshield Wipers Halfway Up Offers Glimpse Of World Suspended In Time"
+  },
+  {
+    "category": "theonion",
+    "headline": "Report: Bananas Still Most Popular Fruit For Pretending To Receive Phone Call"
+  },
+  {
+    "category": "theonion",
+    "headline": "Man Always Makes Sure To Put Phone On Silent Before Misplacing It"
+  },
+  {
+    "category": "theonion",
+    "headline": "Casino Reporting Steady Profits From Slot Machine That Promises Players They Will Lose"
+  },
+  {
+    "category": "theonion",
+    "headline": "Study Finds Sedentary Lifestyle Puts Millions Of Americans At Risk Of Becoming Beautiful Just The Way They Are"
+  },
+  {
+    "category": "theonion",
+    "headline": "Pitbull Mix Only Bites Off Half Of Toddler’s Face"
+  },
+  {
+    "category": "theonion",
+    "headline": "Nipple Of Baby’s Bottle Pierced For Authenticity"
+  },
+  {
+    "category": "theonion",
+    "headline": "Pedestrian Crossing Street Makes Sure To Look At Approaching Car So Driver Will Feel More Guilty If They Run Him Over"
+  },
+  {
+    "category": "theonion",
+    "headline": "Fighting Harassment: Twitter Will Now Only Allow Users To Tweet, ‘Die, Bitch’ To Bitches Who Should Die"
+  },
+  {
+    "category": "theonion",
+    "headline": "Online University Allows Students To Amass Crippling Debt At Own Pace"
+  },
+  {
+    "category": "theonion",
+    "headline": "Baby Knocked Out With Cough Syrup Praised For Being Such A Good Little Traveler"
+  },
+  {
+    "category": "theonion",
+    "headline": "Parents’ Visit Injects $66 Into Local Apartment Economy"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘No God, Please Not Now,’ Yells Rapidly Aging Tom Brady As Old Crone’s Spell Begins To Wear Off During Super Bowl"
+  },
+  {
+    "category": "theonion",
+    "headline": "Jussie Smollett Arrives In Court Wearing Full-Body Cast"
+  },
+  {
+    "category": "theonion",
+    "headline": "Makers Of Good Friends Cereal Not Sure How Two Pictures Of Ann Coulter Got On Box"
+  },
+  {
+    "category": "theonion",
+    "headline": "Tumor-Covered Chester Cheetah Apologizes For Role In Marketing Dangerously Cheesy Cheetos To Children"
+  },
+  {
+    "category": "theonion",
+    "headline": "Dad Heartbreakingly Thinks His Connections Can Help Son Find Job"
+  },
+  {
+    "category": "theonion",
+    "headline": "Lazy Poor Person Has Never Earned Passive Income From Stock Dividends A Day In His Life"
+  },
+  {
+    "category": "theonion",
+    "headline": "Tour Becoming One-On-One Between Guide And Man Who Knew Name Of McKinley’s Assassin"
+  },
+  {
+    "category": "theonion",
+    "headline": "Supportive Parents Encourage Child’s Interests In Anything Within 15-Minute Drive"
+  },
+  {
+    "category": "theonion",
+    "headline": "Alexandria Ocasio-Cortez Criticized For Preventing 25,000 New York Evictions"
+  },
+  {
+    "category": "theonion",
+    "headline": "A Titan Of Sport: This Man At The Gym Is All-Out Sprinting On The Treadmill In Cargo Shorts While Watching Old Episodes Of ‘River Monsters’ On A Microsoft Surface Tablet"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘I Want For Nothing, Mommy’: 5 Pleasureless Gifts To Give Your Ascetic 9-Year-Old For Their Birthday"
+  },
+  {
+    "category": "theonion",
+    "headline": "Shocking Dark Secret: The Host Of The Beloved Kids Show 'Professor Groin Pincher's Carnival Of Pleasures' Has Been Posthumously Unmasked As A Pedophile"
+  },
+  {
+    "category": "theonion",
+    "headline": "Ultrasound Technician Asks Pregnant Woman If She’d Like To Know Baby’s Name"
+  },
+  {
+    "category": "theonion",
+    "headline": "Jared Goff Pissed He Had To Miss Friend’s Super Bowl Party For Work"
+  },
+  {
+    "category": "theonion",
+    "headline": "Man’s Wife Dies Of Cancer Just Like In The Movies"
+  },
+  {
+    "category": "theonion",
+    "headline": "Girl Power! American Girl Has Released A New Doll Who Was Alive During The Civil Rights Movement But Didn’t Really Help At All"
+  },
+  {
+    "category": "theonion",
+    "headline": "Ugly Girl Killed"
+  },
+  {
+    "category": "theonion",
+    "headline": "Teddy Bear Feels Terrible For Sparking ‘What Are We?’ Conversation"
+  },
+  {
+    "category": "theonion",
+    "headline": "David Crosby Shows Photo Of Dwarven Blacksmith To Barber To Give Idea Of What He Wants"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘We Will Not Repeat The Mistakes Of The 2016 Election,’ Vows Nation Still Using Internet"
+  },
+  {
+    "category": "theonion",
+    "headline": "Trump Agrees To Wear Wire To Take Down Roger Stone"
+  },
+  {
+    "category": "theonion",
+    "headline": "Minnesota Resident Thinking Of Finally Packing It All Up And Moving Someplace Warm Like Michigan"
+  },
+  {
+    "category": "theonion",
+    "headline": "Crowd Feeling Kind Of Silly Now After Spending All That Time Pleading Rooftop Sniper Not To Jump"
+  },
+  {
+    "category": "theonion",
+    "headline": "Scientists Discover Mollusks Are Next Evolutionary Stage For Humans"
+  },
+  {
+    "category": "theonion",
+    "headline": "Aunt Scores Big With Nephews By Dropping Bombshell Story About Mom Smoking Weed As Teenager"
+  },
+  {
+    "category": "theonion",
+    "headline": "Howard Schultz Considering Independent Presidential Run After Finding No Initial Support Among Any Voter Groups"
+  },
+  {
+    "category": "theonion",
+    "headline": "Dog Can’t Believe Owner Left On Fucking MSNBC To Keep It Company While She At Work"
+  },
+  {
+    "category": "theonion",
+    "headline": "College Freshman From Florida Has Never Seen People Complain About Snow For 5 Months Before"
+  },
+  {
+    "category": "theonion",
+    "headline": "Family Unsure Why Grandmother’s Caregiver Seems Like He Actually Enjoys Spending Time With Her"
+  },
+  {
+    "category": "theonion",
+    "headline": "Mueller Annoyed By Chipper, Overeager Adam Schiff Constantly Sending Him Evidence He’s Already Uncovered"
+  },
+  {
+    "category": "theonion",
+    "headline": "Nurse Tells Wheelchair-Bound, Concussed Rob Gronkowski He’s At The Super Bowl With All His Friends"
+  },
+  {
+    "category": "theonion",
+    "headline": "Report: What’s A Pretty Lady Like You Doing Around An Article Like This?"
+  },
+  {
+    "category": "theonion",
+    "headline": "Group Of Friends Engage In Passionate, Incoherent Discussion About Current Events"
+  },
+  {
+    "category": "theonion",
+    "headline": "Ilhan Omar Thankful For Colleagues Educating Her On Painful History AIPAC Lobbyists Have Had To Endure"
+  },
+  {
+    "category": "theonion",
+    "headline": "Report: It The Part Of Night Where Everyone Just Sort Of Goes Around And Remembers Commercials They Liked"
+  },
+  {
+    "category": "theonion",
+    "headline": "Taliban Agrees To Peace Deal Despite Concerns About America’s Human-Rights Record"
+  },
+  {
+    "category": "theonion",
+    "headline": "Boring List Of 7 Trucks We Only Put Online Because It Wasn’t Too Much Work"
+  },
+  {
+    "category": "theonion",
+    "headline": "Wealthy Teen Nearly Experiences Consequence"
+  },
+  {
+    "category": "theonion",
+    "headline": "Pope Francis Offers Molested Kids 10% Off At Vatican City Gift Shop"
+  },
+  {
+    "category": "theonion",
+    "headline": "Grandiose Delusion Of Own Self-Importance Only Thing Keeping CEO Alive, Doctors Say"
+  },
+  {
+    "category": "theonion",
+    "headline": "Spacecraft Travel From All Over Galaxy To Honor End Of Opportunity Rover’s Life"
+  },
+  {
+    "category": "theonion",
+    "headline": "Cop Just In It For The Frisking"
+  },
+  {
+    "category": "theonion",
+    "headline": "Man Losing Respect For Incompetent Boss Who Won’t Fire Him"
+  },
+  {
+    "category": "theonion",
+    "headline": "Karl Lagerfeld Horrified By Uninspired, Garish Tunnel Of Light Coming Toward Him"
+  },
+  {
+    "category": "theonion",
+    "headline": "Trump Base Celebrates President For Standing Up To Constitution"
+  },
+  {
+    "category": "theonion",
+    "headline": "Frigid Chicago Bean Shrivels Up From Below-Zero Temperatures"
+  },
+  {
+    "category": "theonion",
+    "headline": "Kanye West Named New Face Of Yeezy"
+  },
+  {
+    "category": "theonion",
+    "headline": "Mom Figures It About Time To Sit Down Adolescent Daughter And Explain How Weight Watchers Points Work"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘National Geographic’ Increases Ideological Diversity By Hiring First Anti-Tree-Frog Writer"
+  },
+  {
+    "category": "theonion",
+    "headline": "Competition For 23AndMe? This New Company Lets You Send Them Your Saliva And They Will Tell You If They Like It"
+  },
+  {
+    "category": "theonion",
+    "headline": "Beautiful Cultural Exchange: This German Student Visiting An American High School Shouted ‘My Eggs!’ After He Got Hit In The Testicles With A Football"
+  },
+  {
+    "category": "theonion",
+    "headline": "Encouraging Teamwork: ‘Apex Legends’ Has A Button That Lets Players Easily Announce They Have Diarrhea And Won’t Be Shooting Anyone For A Few Minutes"
+  },
+  {
+    "category": "theonion",
+    "headline": "Death Of Sailor In Iconic VJ-Day Photo Reminds Americans Of Halcyon Days When Wars Still Ended"
+  },
+  {
+    "category": "theonion",
+    "headline": "5 Tokyo Buildings Godzilla Spared Because He Was Considering Having His Bar Mitzvah There"
+  },
+  {
+    "category": "theonion",
+    "headline": "Chinese Man Just Glad Fuckin’ 4716 Over"
+  },
+  {
+    "category": "theonion",
+    "headline": "Indignant Bill Belichick Evades Question By Cutting Off Reporter’s Tongue"
+  },
+  {
+    "category": "theonion",
+    "headline": "Study: 30% Of People Who Quit Smoking Relapse After Shakily Raising Cigarette Up To Lips When Agreeing To Turn State’s Evidence"
+  },
+  {
+    "category": "theonion",
+    "headline": "Tweet This Video At Jeff Bridges To Let Him Know That He Could’ve Done Better In ‘The Big Lebowski’"
+  },
+  {
+    "category": "theonion",
+    "headline": "Mueller Admits A Smarter President Would’ve Totally Found Way To Stop Investigation By Now"
+  },
+  {
+    "category": "theonion",
+    "headline": "A Sponsored Content Deal Fell Through After We Already Did The Work, So Enjoy These Brandless Pictures Of People Happy About A Blue Liquid"
+  },
+  {
+    "category": "theonion",
+    "headline": "Tony Romo Realizes He Should Have Used Ability To Read Defenses Back When He Was Still Playing"
+  },
+  {
+    "category": "theonion",
+    "headline": "More Dysfunction: The Secret Service Just Accidentally Shot Eric Trump After Catching Him Trying On His Dad’s Swim Trunks And Mistaking Him For An Intruder"
+  },
+  {
+    "category": "theonion",
+    "headline": "Cold Panic Grips Stacey Abrams As Trump Begins Delivering Speech Almost Identical To One She Wrote"
+  },
+  {
+    "category": "theonion",
+    "headline": "Authorities Swiftly Announce 1,600 Washington Dairy Cows Found Mutilated, Arranged In Pentagram Killed By Blizzard"
+  },
+  {
+    "category": "theonion",
+    "headline": "Guests’ Chairs Tilt, Spray Water At Them During First-Ever 4D State Of The Union Address"
+  },
+  {
+    "category": "theonion",
+    "headline": "7 Total Randos Found Dead"
+  },
+  {
+    "category": "theonion",
+    "headline": "Use Of 'N-Word' May End Porn Star's Career"
+  },
+  {
+    "category": "theonion",
+    "headline": "T-Mobile Announces Wireless Service Now Covers 70% Of Your Apartment"
+  },
+  {
+    "category": "theonion",
+    "headline": "Plan B Releases New Heart-Shaped Tablets For Valentine’s Day"
+  },
+  {
+    "category": "theonion",
+    "headline": "Winded Trump Forced To Lay Down For Last Half Of Speech"
+  },
+  {
+    "category": "theonion",
+    "headline": "Cory Booker Apologizes To Wall Street Bankers For The Mean Things He’s Going To Have To Say About Them"
+  },
+  {
+    "category": "theonion",
+    "headline": "Education FTW: ‘Sesame Street’ Showed Grover Laying An Egg That Elmo And Ernie Both Hatch Out Of To Teach Children Not Everything Can Be Explained With A Catchy Little Song"
+  },
+  {
+    "category": "theonion",
+    "headline": "Local Brother-In-Law Heard You Can Make Shitload Of Money Doing That"
+  },
+  {
+    "category": "theonion",
+    "headline": "4 Times The Harlem Globetrotters Showed Up Uninvited To My Son’s Tap Dancing Recital And Humiliated Him With Basketball Tricks"
+  },
+  {
+    "category": "theonion",
+    "headline": "Children Of All Ages Delighted By Enslavement Of Topsy The Elephant"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘This One Means The Least Of All,’ Says Tom Brady Accepting Super Bowl Trophy"
+  },
+  {
+    "category": "theonion",
+    "headline": "Congress Agrees To $1.3 Billion For Protective Border Fencers"
+  },
+  {
+    "category": "theonion",
+    "headline": "Character Witness Told He Doesn’t Have What It Takes To Be Star Witness"
+  },
+  {
+    "category": "theonion",
+    "headline": "4 Books That Would Be Better If They Weren’t About Harry Potter"
+  },
+  {
+    "category": "theonion",
+    "headline": "Kicking, Screaming Warren Buffett Dragged From Caesars Palace After Losing Everything At Roulette Wheel"
+  },
+  {
+    "category": "theonion",
+    "headline": "The Hidden Price Of Environmentalism: The Cup You’ve Been Reusing For Water At Home All Week Has Started To Develop A Taste"
+  },
+  {
+    "category": "theonion",
+    "headline": "Disconcerted Woman Has No Memory Of Telling Dressing Room Attendant Her Name"
+  },
+  {
+    "category": "theonion",
+    "headline": "This Loyal Dog Refuses To Leave A Grave That Has Peanut Butter On It"
+  },
+  {
+    "category": "theonion",
+    "headline": "Coolest Job Ever: This Awesome Digital Media Company Hired Post Malone To Entertain Laid-Off Employees With Amazing Music While They Cleaned Out Their Desks!"
+  },
+  {
+    "category": "theonion",
+    "headline": "Beautiful: This Organization Takes Stray Dogs Off The Street And Puts Them Really High Up In A Tree"
+  },
+  {
+    "category": "theonion",
+    "headline": "Tweet For Everything: In 2009, Donald Trump Tweeted That Robert Mueller Is An Honest Prosecutor Who Will Lock Him Up In Prison One Day"
+  },
+  {
+    "category": "theonion",
+    "headline": "Experts Advise Against Throwing Laptop Across Office Even Though It Will Feel Incredible"
+  },
+  {
+    "category": "theonion",
+    "headline": "Bow Down, Bitches: Mom Just Got Her Makeup Done For Free By The Clinique Lady At Macy’s And Now She’s Strutting Through The Mall Toward Ruby Tuesday Like It’s A Goddamn Runway"
+  },
+  {
+    "category": "theonion",
+    "headline": "Future Christian Drinking And Doing Drugs And Thinking It's One Big Joke"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘Hurry, There’s A Violent Black Woman Attacking My Daughter,’ Says Cindy McCain To Police While Watching ‘The View’"
+  },
+  {
+    "category": "theonion",
+    "headline": "Report: It Pretty Incredible That Americans Entrusted With Driving Cars"
+  },
+  {
+    "category": "theonion",
+    "headline": "BuzzFeed CEO Gives Laid-Off Staffers Parting GIF"
+  },
+  {
+    "category": "theonion",
+    "headline": "Chinese Man Worried You Can’t Have Respectful Debate About How Amazing Government Is Anymore"
+  },
+  {
+    "category": "theonion",
+    "headline": "Scientists teach Gorilla about the concept of death"
+  },
+  {
+    "category": "theonion",
+    "headline": "Maybelline Announces It Will Stop Testing New Products On Unsuspecting Customers In The Middle Of The Night"
+  },
+  {
+    "category": "theonion",
+    "headline": "Fanatically Devoted Nerd Could Potentially Turn On Simon Pegg At Any Moment"
+  },
+  {
+    "category": "theonion",
+    "headline": "Inclusivity Win! The Word Problem At The End Of This Math Worksheet Has A Guy Named Alejandro In It"
+  },
+  {
+    "category": "theonion",
+    "headline": "Totally Embarrassing: This Woman Forgot To Bring Her Monocle To Her Tap Class, And Now She Looks Like A Fool With Just Her Top Hat And Cane"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘Wait, Mr. Bezos, You Forgot Your Tax Subsidy!’ Says Andrew Cuomo Running Behind Limo"
+  },
+  {
+    "category": "theonion",
+    "headline": "Man Under Mistaken Impression He His Own Harshest Critic"
+  },
+  {
+    "category": "theonion",
+    "headline": "Gay Pride Parade Sets Mainstream Acceptance Of Gays Back 50 Years"
+  },
+  {
+    "category": "theonion",
+    "headline": "Trump Admits He Assumed Roger Stone Was Already In Prison"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘Anthem’ Developers Assure Players Whiteboard With Words ‘Jetpack+Guns?’ Will Be Playable Game By Friday"
+  },
+  {
+    "category": "theonion",
+    "headline": "Caving To Blackmail: Jeff Bezos Has Shut Down ‘The Washington Post’ After ‘The National Enquirer’ Threatened To Publish Photos Revealing He’s Bald"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘Someone In This Room Tonight Will Be Murdered By An Illegal Immigrant,’ Announces Trump Just Before Lights Go Out"
+  },
+  {
+    "category": "theonion",
+    "headline": "Heartbreaking: This Kid Genuinely Seems Pretty Proud After His Teacher Announced That His Section Of Biology Is A Full Week Ahead Of Her Other Bio Classes"
+  },
+  {
+    "category": "theonion",
+    "headline": "Parents’ Visit Injects $66 Into Local Apartment Economy"
+  },
+  {
+    "category": "theonion",
+    "headline": "Jimmy Carter Concerned Desire For Fresh Faces In Democratic Party May Hurt His Chances In 2020"
+  },
+  {
+    "category": "theonion",
+    "headline": "MTA Urges Riders To Stop Taking Disabled Passengers"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘That First Date Is Going Terribly,’ Think Diners Watching Couple Celebrate 5th Anniversary"
+  },
+  {
+    "category": "theonion",
+    "headline": "Taco Hell"
+  },
+  {
+    "category": "theonion",
+    "headline": "Ralph Northam Admits He Once Engaged In Pedophilia As Part Of Michael Jackson Costume"
+  },
+  {
+    "category": "theonion",
+    "headline": "Giant Demonic Hand Bursts Out Of Ground, Drags Bill Belichick Back To Hell"
+  },
+  {
+    "category": "theonion",
+    "headline": "Grocery Store Not Fooling Anybody By Marketing Cantaloupe As Fun Super Bowl Snack"
+  },
+  {
+    "category": "theonion",
+    "headline": "Mavericks Retire Dirk Nowitzki’s Jersey Fully Unaware He Still On Team"
+  },
+  {
+    "category": "theonion",
+    "headline": "Self-Care FTW! This New App Sends You Daily Reminders To Take Your Bra Off And Smoke Virginia Slims"
+  },
+  {
+    "category": "theonion",
+    "headline": "Judge Restricts Roger Stone’s Travel Between Fox News, InfoWars Studios While Released On Bond"
+  },
+  {
+    "category": "theonion",
+    "headline": "Dad Doesn’t Trust The Fish Here"
+  },
+  {
+    "category": "theonion",
+    "headline": "Study: No Two People Have Listened To Same Band Since 2003"
+  },
+  {
+    "category": "theonion",
+    "headline": "God Feeling Down In Dumps After Death Of Grandmother"
+  },
+  {
+    "category": "theonion",
+    "headline": "Parasitic Space Worm Controlling Mark Kelly’s Body Announces Arizona Senate Bid"
+  },
+  {
+    "category": "theonion",
+    "headline": "Farberware Releases New Nonstick Eggs"
+  },
+  {
+    "category": "theonion",
+    "headline": "Hawaii Could Increase Legal Age Of Smoking To 100"
+  },
+  {
+    "category": "theonion",
+    "headline": "Kavanaugh Offers Elena Kagan Pull Of Vodka From Aquafina Bottle"
+  },
+  {
+    "category": "theonion",
+    "headline": "New ‘Avengers’ Fan Theory Suggests Key To Beating Thanos Could Be Nothing Because He Not Real And None Of This Exists"
+  },
+  {
+    "category": "theonion",
+    "headline": "Pueblo Indians Can’t Keep Pace With Area Mom’s Appetite For Earthenware"
+  },
+  {
+    "category": "theonion",
+    "headline": "Does The Rams’ Success Point Toward A League-Wide Trend Of Teams Drafting, Signing, And Trading For Good Players?"
+  },
+  {
+    "category": "theonion",
+    "headline": "New Evidence Suggests President George Washington Sent Woodcut Of Penis To Secretary"
+  },
+  {
+    "category": "theonion",
+    "headline": "Finally! Kotex Has Released A Line Of Tampons With A 15-Foot String And A Bell At The End So You Never Forget About Your Tampon"
+  },
+  {
+    "category": "theonion",
+    "headline": "Beached Whale Trying To Hold On Until Sea Levels Rise"
+  },
+  {
+    "category": "theonion",
+    "headline": "Heartbreaking: This Kid Is Too Young To Realize That His Friends Were Hanging Out Without Him When He Ran Into Them At The Movies, And Now He Keeps Telling His Mom How Cool It Was That He Just Saw All Of His Friends"
+  },
+  {
+    "category": "theonion",
+    "headline": "Amy Klobuchar Pledges To Fight Everyday Americans"
+  },
+  {
+    "category": "theonion",
+    "headline": "Hell Fucking Yes: Your White Yoga Teacher Is Throat Singing And Playing Bansuri Flute Music And If That’s Cultural Appropriation It’s All On Them But Super Fun For You"
+  },
+  {
+    "category": "theonion",
+    "headline": "TV In L.A. Bar Switched Over To ‘American Dad’ Rerun Without Complaint"
+  },
+  {
+    "category": "theonion",
+    "headline": "Real Life Incredible Hulk: This Man Turns Green And Goes Bald Every Time He Gets Upset"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘Follow Your Instructions, This Is All Part Of The Plan,’ Hisses Richard Nixon Tattoo Protruding From Roger Stone’s Back"
+  },
+  {
+    "category": "theonion",
+    "headline": "Doctors Assure Recovering Patient He Has Many More Years Of Looking At Phone Ahead Of Him"
+  },
+  {
+    "category": "theonion",
+    "headline": "Heartwarming: These Awesome Teen Volunteers Call Nursing Home Residents Once A Week To Remind Them About Swamps"
+  },
+  {
+    "category": "theonion",
+    "headline": "Elliott Abrams Defends War Crimes As Happening Back In The ’80s When Everyone Was Doing It"
+  },
+  {
+    "category": "theonion",
+    "headline": "Survey Finds Many Gamers Never Finished ‘Red Dead Redemption 2’"
+  },
+  {
+    "category": "theonion",
+    "headline": "Exclusive TSA Pre-Check Allows Passengers To Fly Without Waiting For Airplane"
+  },
+  {
+    "category": "theonion",
+    "headline": "Sean McVay Begs Mother To Let Him Stay Up To Coach Rest Of Super Bowl"
+  },
+  {
+    "category": "theonion",
+    "headline": "Super Bowl Stadium Solemnly Stands, Places Hands Over Heart For Maroon 5 Halftime Show"
+  },
+  {
+    "category": "theonion",
+    "headline": "Self-Defense FTW! This Woman Likes To Think That She Could Probably Hit Someone With Her Water Bottle Pretty Hard If It Came To That"
+  },
+  {
+    "category": "theonion",
+    "headline": "Nation’s Girlfriends Admit Absolutely Everything Riding On Valentine’s Day"
+  },
+  {
+    "category": "theonion",
+    "headline": "Report: Papa Will Be So Very Cross You’ve Lost Grandfather’s Hunting Cap"
+  },
+  {
+    "category": "theonion",
+    "headline": "5 Mindfulness Exercises You Can Use To Remind Yourself That You’re Better Than A Frog"
+  },
+  {
+    "category": "theonion",
+    "headline": "Trump Claims Greatest Threat Facing Nation Toys Coming To Life While Owner Not In Room"
+  },
+  {
+    "category": "theonion",
+    "headline": "Sort Of Heartwarming: These Amazing Students Raised Over $20,000 For Their Teacher’s Penis Enlargement Surgery"
+  },
+  {
+    "category": "theonion",
+    "headline": "5 Fond Memories From His Undergrad Years At Duke That R2-D2 Had To Delete To Make Room For The Death Star Plans"
+  },
+  {
+    "category": "theonion",
+    "headline": "Small Town Billionaire Fails To Make It In Big City"
+  },
+  {
+    "category": "theonion",
+    "headline": "Zoo Posting Hourly Updates On Aphid About To Give Birth"
+  },
+  {
+    "category": "theonion",
+    "headline": "Jimmy Carter Concerned Desire For Fresh Faces In Democratic Party May Hurt His Chances In 2020"
+  },
+  {
+    "category": "theonion",
+    "headline": "Heartwarming: These Parents Had The Most Adorable Girth Reveal Party To Announce That They’re Having A Fat Baby"
+  },
+  {
+    "category": "theonion",
+    "headline": "340 Million Social Security Numbers Obtained By Federal Government In Massive Personal Data Breach"
+  },
+  {
+    "category": "theonion",
+    "headline": "Marine Biologists Train Highly Intelligent Octopus To Profitably Manage Mid-Size Aluminum Goods Supplier"
+  },
+  {
+    "category": "theonion",
+    "headline": "Bryan Singer Celebrates ‘Bohemian Rhapsody’ Oscar Nominations By Popping Open Special Bottle Of Rohypnol"
+  },
+  {
+    "category": "theonion",
+    "headline": "This has never made any sense."
+  },
+  {
+    "category": "theonion",
+    "headline": "Coworkers Agog As Employee Introduces New Shirt Into Rotation"
+  },
+  {
+    "category": "theonion",
+    "headline": "Trump Offers Clear, Historical Precedent For Deploying U.S. Military With No Provocation"
+  },
+  {
+    "category": "theonion",
+    "headline": "Sighing Banksy Methodically Kills Another Few Kids Who Stumbled Upon Him Doing Graffiti"
+  },
+  {
+    "category": "theonion",
+    "headline": "Nation Horrified To Discover Cory Booker Already A Senator"
+  },
+  {
+    "category": "theonion",
+    "headline": "A Love That Transcends Time And Space: This Elderly Couple Died Within 8 Years Of Each Other"
+  },
+  {
+    "category": "theonion",
+    "headline": "Southern Poverty Law Center Admits They Have No Idea How Dannon Yogurt Company Got On Annual List Of Hate Groups"
+  },
+  {
+    "category": "theonion",
+    "headline": "Allergy Sufferer Dies After Being Stung By Dog"
+  },
+  {
+    "category": "theonion",
+    "headline": "Pope Breaks Ice At Clergy Abuse Summit By Having Everyone Go Around And Say How Many Kids They Molested"
+  },
+  {
+    "category": "theonion",
+    "headline": "An Authentic Experience: Peloton Is Manufacturing An Indoor Exercise Bike That Will Have The Exact The Same Rate Of Accidental Death As Riding A Bike Outside"
+  },
+  {
+    "category": "theonion",
+    "headline": "Coca-Cola Releases New Orange Vanilla Flavor"
+  },
+  {
+    "category": "theonion",
+    "headline": "Heartbreaking: This Man Works For A Website"
+  },
+  {
+    "category": "theonion",
+    "headline": "This Actually Good News, Contractor Reveals, Because Now You Know The Real Problem"
+  },
+  {
+    "category": "theonion",
+    "headline": "I Was There When Tommy Lee Honked A Boat Horn With His Penis In The Sex Tape He Made With Pamela Anderson And I Did Nothing"
+  },
+  {
+    "category": "theonion",
+    "headline": "Study: Vaping Better Aid To Quit Smoking Than Gum Or Patches"
+  },
+  {
+    "category": "theonion",
+    "headline": "Bryce Harper Asks If Phillies Willing To Move To Another City"
+  },
+  {
+    "category": "theonion",
+    "headline": "Horribly Depressed Zookeeper Has Always Had Special Connection With Animals"
+  },
+  {
+    "category": "theonion",
+    "headline": "‘Now That’s What I Call A Fumble,’ Reports Man At Super Bowl Party Who Has No Idea What He’s Talking About"
+  },
+  {
+    "category": "theonion",
+    "headline": "Art Of The Craft: Former Burglar Shares His Secrets For Breaking Into Homes"
+  },
+  {
+    "category": "theonion",
+    "headline": "Beautiful: Jerry Stiller Called This Terminally Ill Child At 3 A.M. Last Night To Tell Her An Idea He Had For A New Type Of Sushi Roll"
+  },
+  {
+    "category": "theonion",
+    "headline": "Man Competitive About How Depressed He Is"
+  },
+  {
+    "category": "theonion",
+    "headline": "Foodies Rejoice! This Chef Make A Hamburger!!!"
+  },
+  {
+    "category": "theonion",
+    "headline": "Yosemite Expands Lodging Accommodations With New Log Cabin High-Rises"
+  },
+  {
+    "category": "theonion",
+    "headline": "Woman Wakes Husband Up On Valentine’s Day With Hot Surprise Blowtorch"
+  },
+  {
+    "category": "theonion",
+    "headline": "Sensei’s Assistant Really Getting His Ass Whipped"
+  },
+  {
+    "category": "theonion",
+    "headline": "Heartbreaking Backstory: 6 Luxury Dog Houses Yoda Looked At But Couldn’t Afford"
+  },
+  {
+    "category": "theonion",
+    "headline": "Pentagon Allocates $600,000 For Actual Gun Used In ‘Scarface’"
+  },
+  {
+    "category": "theonion",
+    "headline": "Department Of Transportation Announces New Highway Concert Series"
+  },
+  {
+    "category": "theonion",
+    "headline": "Adam Silver Sends League-Wide Memo Just Asking Players Where The Fuck They Want To Play"
+  },
+  {
+    "category": "theonion",
+    "headline": "Nation's Celebrities Not Famous Enough, Publicists Agree"
+  },
+  {
+    "category": "theonion",
+    "headline": "Nancy Pelosi Signals Support For Environmental Causes By Placing Green New Deal Directly Into Recycling Bin"
+  },
+  {
+    "category": "theonion",
+    "headline": "City Of Boston Erects New Plaque Commemorating Spot Where Ben Affleck Will Die"
+  },
+  {
+    "category": "theonion",
+    "headline": "'Chapter 1: Clark,' Reports Awful Manuscript"
+  },
+  {
+    "category": "theonion",
+    "headline": "Anne Hathaway Said What?!"
+  },
+  {
+    "category": "theonion",
+    "headline": "Child Getting Pretty Cozy With Stranger’s Leg"
+  },
+  {
+    "category": "theonion",
+    "headline": "Democrats Pick Georgia’s Stacey Abrams To Give State Of The Union Rebuttal"
+  },
+  {
+    "category": "theonion",
+    "headline": "Teen Weirded Out After Running Over English Teacher Outside Of School"
+  },
+  {
+    "category": "theonion",
+    "headline": "Biggest Snubs In Oscars History"
+  },
+  {
+    "category": "theonion",
+    "headline": "Trump Confirms All Violent Options On The Table In Venezuela"
+  },
+  {
+    "category": "theonion",
+    "headline": "Passenger Glued To Airplane Window Like It Fucking 1956"
+  },
+  {
+    "category": "theonion",
+    "headline": "Climatologists Find Pitchers And Catchers Reporting Further South Every Spring"
+  },
+  {
+    "category": "theonion",
+    "headline": "5 AMBER Alerts That Were Sent Out That Were Clearly More Focused On How Sweet The Car Was"
+  },
+  {
+    "category": "theonion",
+    "headline": "Boss Makes Lipstick Prints On Paychecks For Valentine’s Day"
+  },
+  {
+    "category": "theonion",
+    "headline": "Angry, Ranting Twitter User Really Needs To Move Out Of Parents’ Basement"
+  },
+  {
+    "category": "theonion",
+    "headline": "We Predict Who Will Watch The Grammys This Sunday"
+  },
+  {
+    "category": "theonion",
+    "headline": "Buzz Aldrin Said What?!"
+  },
+  {
+    "category": "theonion",
+    "headline": "Hot Hot Hollywood: Tim Cook And Malala Yousafzai Were Spotting Together Dragging Their New Bunk Bed Down The Santa Monica Freeway"
+  },
+  {
+    "category": "theonion",
+    "headline": "Study: 80% Of Waking Hours Spent Plotting Revenge"
+  },
+  {
+    "category": "theonion",
+    "headline": "Disney Announces ‘Kingdom Hearts III’ Will Feature Ernest, Turner, Hooch, And All The Rest Of Your Favorite Touchstone Pictures Characters"
+  },
+  {
+    "category": "theonion",
+    "headline": "E.L. James Admits New Erotic Novel Originally ‘Tiny Toons’ Fan Fiction"
+  },
+  {
+    "category": "theonion",
+    "headline": "Overstepping Their Bounds: CNN Has Begun Sending Way-Too-Casual Push Notifications Announcing They’re Tired And Can’t Wait For The Weekend"
+  },
+  {
+    "category": "theonion",
+    "headline": "Self-Conscious Puppet Has No Idea What To Do With Hands"
+  },
+  {
+    "category": "theonion",
+    "headline": "Sweating CornNuts VP Stammers Way Through Pitch For ‘Nutsarito’ At Taco Bell"
+  },
+  {
+    "category": "theonion",
+    "headline": "Why Can’t I Sell Any of These Fucking Bibles?"
+  },
+  {
+    "category": "theonion",
+    "headline": "5 Things To Know About ‘Anthem’"
+  },
+  {
+    "category": "theonion",
+    "headline": "7 Fjords I Would Like To Take Your Family To See Without You"
+  },
+  {
+    "category": "theonion",
+    "headline": "Due to over crowding and traffic issues in Yosemite, massive construction ensues."
+  },
+  {
+    "category": "theonion",
+    "headline": "Pros And Cons Of Salary Transparency"
+  },
+  {
+    "category": "theonion",
+    "headline": "Suicide Rates Falling Worldwide"
+  },
+  {
+    "category": "theonion",
+    "headline": "Top Democrats Call On Virginia Governor To Resign"
+  },
+  {
+    "category": "theonion",
+    "headline": "Area Man Consults Internet Whenever Possible"
+  },
+  {
+    "category": "theonion",
+    "headline": "Pajama-Clad Child Makes Turbulent Rampage Through Dinner Party"
+  },
+  {
+    "category": "theonion",
+    "headline": "Tips For Getting Unsafe Elderly Drivers Off The Road"
+  },
+  {
+    "category": "theonion",
+    "headline": "Alcoholic Father Granted Posthumous Sainthood By Catholic Family"
+  },
+  {
+    "category": "theonion",
+    "headline": "Most people don’t know this!"
+  },
+  {
+    "category": "theonion",
+    "headline": "New Biodiversity Program Busses In Species From Outside Ecosystems"
+  }
+]
