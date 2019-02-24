@@ -16,7 +16,6 @@ exports.handler = skillBuilder
   .addRequestHandlers(
     Handlers.LaunchRequestHandler,
     Handlers.QuizHandler,
-    Handlers.DefinitionHandler,
     Handlers.QuizAnswerHandler,
     Handlers.RepeatHandler,
     Handlers.HelpHandler,

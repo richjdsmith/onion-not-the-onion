@@ -1,98 +1,123 @@
-const QuizData = require('./quizData.js');
+const quizData = require('./quizData.json');
+Array.prototype.randomElement = function () {
+  return this[Math.floor(Math.random() * this.length)];
+};
 /* HELPER FUNCTIONS */
 const speechConsCorrect = ['Booya', 'All righty', 'Bam', 'Bazinga', 'Bingo', 'Boom', 'Bravo', 'Cha Ching', 'Cheers', 'Dynomite', 'Hip hip hooray', 'Hurrah', 'Hurray', 'Huzzah', 'Oh dear.  Just kidding.  Hurray', 'Kaboom', 'Kaching', 'Oh snap', 'Phew', 'Righto', 'Way to go', 'Well done', 'Whee', 'Woo hoo', 'Yay', 'Wowza', 'Yowsa'];
 const speechConsWrong = ['Argh', 'Aw man', 'Blarg', 'Blast', 'Boo', 'Bummer', 'Darn', "D'oh", 'Dun dun dun', 'Eek', 'Honk', 'Le sigh', 'Mamma mia', 'Oh boy', 'Oh dear', 'Oof', 'Ouch', 'Ruh roh', 'Shucks', 'Uh oh', 'Wah wah', 'Whoops a daisy', 'Yikes'];
 
+function askQuestion(handlerInput) {
+  console.log("I am in askQuestion()");
 
+  //GET SESSION ATTRIBUTES
+  const attributes = handlerInput.attributesManager.getSessionAttributes();
 
-function getBadAnswer(item) {
-  return `I'm sorry. ${item} is not something I know very much about in this skill. ${helpMessage}`;
+  //GENERATING THE RANDOM QUESTION FROM DATA
+  console.log(attributes.indexPosition);
+  const random = attributes.randomIndexArray[attributes.indexPosition];
+  console.log(random);
+  const item = quizData[random];
+  console.log(item);
+
+  //SET QUESTION DATA TO ATTRIBUTES
+  attributes.selectedItemIndex = random;
+  attributes.quizItem = item;
+  attributes.counter += 1;
+  attributes.indexPosition += 1;
+
+  //SAVE ATTRIBUTES
+  handlerInput.attributesManager.setSessionAttributes(attributes);
+
+  const question = getQuestion(attributes.counter, item);
+  return question;
 }
 
-function getCurrentScore(score, counter) {
-  return `Your current score is ${score} out of ${counter}. `;
+// Builds an array of random numbers the length of the quizData array to be
+// used as an index for actually retrieving questions, without storing the 
+// whole 80kb in memory.
+function generateRandomIndex() {
+  let array = generateRandomArray(quizData.length);
+  return array;
 }
 
-function getFinalScore(score, counter) {
-  return `Your final score is ${score} out of ${counter}. `;
+// Generates a random array.... The name describes it well.
+function generateRandomArray(arrayLength) {
+  return [...Array(arrayLength)].map(e => ~~(Math.random() * arrayLength));
 }
 
-function getCardTitle(item) {
-  return item.StateName;
-}
-
-
-
-
-function getSpeechDescription(item) {
-  return `${item.StateName} is the ${item.StatehoodOrder}th state, admitted to the Union in ${item.StatehoodYear}.  The capital of ${item.StateName} is ${item.Capital}, and the abbreviation for ${item.StateName} is <break strength='strong'/><say-as interpret-as='spell-out'>${item.Abbreviation}</say-as>.  I've added ${item.StateName} to your Alexa app.  Which other state or capital would you like to know about?`;
-}
-
-function formatCasing(key) {
-  return key.split(/(?=[A-Z])/).join(' ');
-}
-
-function getQuestion(counter, property, item) {
-  return `Here is your ${counter}th question.  What is the ${formatCasing(property)} of ${item.StateName}?`;
-}
-
-// getQuestionWithoutOrdinal returns the question without the ordinal and is
-// used for the echo show.
-function getQuestionWithoutOrdinal(property, item) {
-  return "What is the " + formatCasing(property).toLowerCase() + " of " + item.StateName + "?";
-}
-
-function getAnswer(property, item) {
-  switch (property) {
-    case 'Abbreviation':
-      return `The ${formatCasing(property)} of ${item.StateName} is <say-as interpret-as='spell-out'>${item[property]}</say-as>. `;
-    default:
-      return `The ${formatCasing(property)} of ${item.StateName} is ${item[property]}. `;
-  }
+function getQuestion(counter, item) {
+  console.log('Im in getQuestion()');
+  return `Here is your ${counter}th headline: ${item.headline}`;
 }
 
 function getRandom(min, max) {
   return Math.floor((Math.random() * ((max - min) + 1)) + min);
 }
 
-function askQuestion(handlerInput) {
-  console.log("I am in askQuestion()");
-  //GENERATING THE RANDOM QUESTION FROM DATA
-  const random = getRandom(0, QuizData.data.length - 1);
-  const item = QuizData.data[random];
-  const propertyArray = Object.getOwnPropertyNames(item);
-  const property = propertyArray[getRandom(1, propertyArray.length - 1)];
-
-  //GET SESSION ATTRIBUTES
-  const attributes = handlerInput.attributesManager.getSessionAttributes();
-
-  //SET QUESTION DATA TO ATTRIBUTES
-  attributes.selectedItemIndex = random;
-  attributes.quizItem = item;
-  attributes.quizProperty = property;
-  attributes.counter += 1;
-
-  //SAVE ATTRIBUTES
-  handlerInput.attributesManager.setSessionAttributes(attributes);
-
-  const question = getQuestion(attributes.counter, property, item);
-  return question;
-}
-
-function compareSlots(slots, value) {
+function compareSlots(slots, item) {
+  console.log('Im in compareSlots()');
   for (const slot in slots) {
     if (Object.prototype.hasOwnProperty.call(slots, slot) && slots[slot].value !== undefined) {
-      if (slots[slot].value.toString().toLowerCase() === value.toString().toLowerCase()) {
+      console.log('In here too!');
+      console.log(slots[slot].name.toString().toLowerCase())
+      console.log('Next')
+      console.log(slots);
+      if (slots[slot].name.toString().toLowerCase() === item.category.toString().toLowerCase()) {
         return true;
       }
     }
   }
-
   return false;
 }
 
+function getSpeechCon(type) {
+  console.log('Im in getSpeechCon()');
+  if (type) return `<say-as interpret-as='interjection'>${speechConsCorrect[getRandom(0, speechConsCorrect.length - 1)]}! </say-as><break strength='strong'/>`;
+  return `<say-as interpret-as='interjection'>${speechConsWrong[getRandom(0, speechConsWrong.length - 1)]} </say-as><break strength='strong'/>`;
+}
+
+function getAnswer(item) {
+  console.log('Im in getAnswer()');
+  let isRealHeadline = getIfHeadlineIsTrueFalse(item.category).toString();
+  return `${item.headline} is a ${isRealHeadline} headline!`;
+}
+
+function getIfHeadlineIsTrueFalse(category) {
+  console.log('Im in getIfHeadlineIsTrueFalse()');
+  if (category.toString().toLowerCase() === "theonion") {
+    return false;
+  }
+  return true;
+}
+
+function getCurrentScore(score, counter) {
+  console.log('Im in getCurrentScore()');
+  return `Your current score is ${score} out of ${counter}. `;
+}
+
+
+
+
+
+function getFinalScore(score, counter) {
+  return `Your final score is ${score} out of ${counter}. `;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function getItem(slots) {
-  const propertyArray = Object.getOwnPropertyNames(QuizData.data[0]);
+  const propertyArray = Object.getOwnPropertyNames(quizData[0]);
   let slotValue;
 
   for (const slot in slots) {
@@ -112,10 +137,7 @@ function getItem(slots) {
   return slotValue;
 }
 
-function getSpeechCon(type) {
-  if (type) return `<say-as interpret-as='interjection'>${speechConsCorrect[getRandom(0, speechConsCorrect.length - 1)]}! </say-as><break strength='strong'/>`;
-  return `<say-as interpret-as='interjection'>${speechConsWrong[getRandom(0, speechConsWrong.length - 1)]} </say-as><break strength='strong'/>`;
-}
+
 
 
 function getTextDescription(item) {
@@ -132,7 +154,6 @@ function getTextDescription(item) {
 function getAndShuffleMultipleChoiceAnswers(currentIndex, item, property) {
   return shuffle(getMultipleChoiceAnswers(currentIndex, item, property));
 }
-
 // This function randomly chooses 3 answers 2 incorrect and 1 correct answer to
 // display on the screen using the ListTemplate. It ensures that the list is unique.
 function getMultipleChoiceAnswers(currentIndex, item, property) {
@@ -171,7 +192,7 @@ function getMultipleChoiceAnswers(currentIndex, item, property) {
 }
 
 // This function takes the contents of an array and randomly shuffles it.
-function shuffle(array) {
+function shuffleArray(array) {
   let currentIndex = array.length,
     temporaryValue, randomIndex;
 
@@ -185,18 +206,16 @@ function shuffle(array) {
   return array;
 }
 
+
 module.exports = {
   askQuestion: askQuestion,
-  getQuestionWithoutOrdinal: getQuestionWithoutOrdinal,
+  generateRandomIndex: generateRandomIndex,
   getAndShuffleMultipleChoiceAnswers: getAndShuffleMultipleChoiceAnswers,
   getItem: getItem,
-  getCardTitle: getCardTitle,
   getTextDescription: getTextDescription,
-  getSpeechDescription: getSpeechDescription,
   getSpeechCon: getSpeechCon,
   getAnswer: getAnswer,
   getFinalScore: getFinalScore,
   compareSlots: compareSlots,
-  getBadAnswer: getBadAnswer,
   getCurrentScore: getCurrentScore,
 };

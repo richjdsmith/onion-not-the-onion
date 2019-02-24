@@ -19,8 +19,8 @@
             "unix"
         ],
         "quotes": [
-            "warn",
-            "single"
+            "off",
+            "double"
         ],
         "semi": [
             "error",

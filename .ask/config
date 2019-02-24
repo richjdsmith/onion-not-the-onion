@@ -10,7 +10,7 @@
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "dfb3fdda4590df7101eb9de0eb52fdd4"
+            "eTag": "578097987c0ee6f33afd6a87854463a3"
           }
         },
         "lambda": [
@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-onion-not-the-onion-default",
             "handler": "index.handler",
-            "revisionId": "396a3781-3951-464c-bdd6-e787b16ec4dd",
+            "revisionId": "74273acf-8d03-4cf6-a416-bfb1b2b9af95",
             "runtime": "nodejs8.10"
           }
         ]

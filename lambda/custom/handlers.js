@@ -1,20 +1,16 @@
-const Alexa = require('ask-sdk-core');
 const states = {
   START: `_START`,
   QUIZ: `_QUIZ`,
 };
-const useCardsFlag = true;
 const Builders = require('./builders.js');
-const QuizData = require('./quizData.js');
+
 
 /* CONSTANTS */
 
 
-
-
-
 const LaunchRequestHandler = {
   canHandle(handlerInput) {
+    console.log("Inside LaunchRequestHandler");
     return handlerInput.requestEnvelope.request.type === `LaunchRequest`;
   },
   handle(handlerInput) {
@@ -30,7 +26,9 @@ const QuizHandler = {
   canHandle(handlerInput) {
     const request = handlerInput.requestEnvelope.request;
     console.log("Inside QuizHandler");
-    console.log(JSON.stringify(request));
+    console.log('Logging Intent Request:');
+    console.log(request.intent.name);
+    // console.log(JSON.stringify(request));
     return request.type === "IntentRequest" &&
       (request.intent.name === "QuizIntent" || request.intent.name === "AMAZON.StartOverIntent");
   },
@@ -41,63 +39,28 @@ const QuizHandler = {
     attributes.state = states.QUIZ;
     attributes.counter = 0;
     attributes.quizScore = 0;
+    attributes.indexPosition = 0;
+    attributes.randomIndexArray = Builders.generateRandomIndex();
 
-    let startQuizMessage = `OK.  I will ask you 10 questions about the United States. `;
+    let startQuizMessage = "Alright, let's do this. I'm going to tell you different headlines and then you're going to guess if they're real or not. You can reply by saying things like, 'true' and 'real', or, 'fake', and 'fake news'.";
     var question = Builders.askQuestion(handlerInput);
     var speakOutput = startQuizMessage + question;
     var repromptOutput = question;
 
-    return response.speak(speakOutput)
+    return response
+      .speak(speakOutput)
+      .withSimpleCard("Onion Not The Onion", speakOutput)
       .reprompt(repromptOutput)
       .getResponse();
   },
 };
 
-const DefinitionHandler = {
-  canHandle(handlerInput) {
-    console.log("Inside DefinitionHandler");
-    const attributes = handlerInput.attributesManager.getSessionAttributes();
-    const request = handlerInput.requestEnvelope.request;
-
-    return attributes.state !== states.QUIZ &&
-      request.type === 'IntentRequest' &&
-      request.intent.name === 'AnswerIntent';
-  },
-  handle(handlerInput) {
-    console.log("Inside DefinitionHandler - handle");
-    //GRABBING ALL SLOT VALUES AND RETURNING THE MATCHING DATA OBJECT.
-    const item = Builders.getItem(handlerInput.requestEnvelope.request.intent.slots);
-    const response = handlerInput.responseBuilder;
-
-    //IF THE DATA WAS FOUND
-    if (item && item[Object.getOwnPropertyNames(QuizData.data[0])[0]] !== undefined) {
-      if (useCardsFlag) {
-        response.withStandardCard(
-          Builders.getCardTitle(item),
-          Builders.getTextDescription(item));
-
-      }
-
-      let repromptSpeech = `Which other state or capital would you like to know about?`;
-      return response.speak(Builders.getSpeechDescription(item))
-        .reprompt(repromptSpeech)
-        .getResponse();
-    }
-    //IF THE DATA WAS NOT FOUND
-    else {
-      return response.speak(Builders.getBadAnswer(item))
-        .reprompt(Builders.getBadAnswer(item))
-        .getResponse();
-    }
-  }
-};
 
 const QuizAnswerHandler = {
   canHandle(handlerInput) {
+    const request = handlerInput.requestEnvelope.request;
     console.log("Inside QuizAnswerHandler");
     const attributes = handlerInput.attributesManager.getSessionAttributes();
-    const request = handlerInput.requestEnvelope.request;
-
     return attributes.state === states.QUIZ &&
       request.type === 'IntentRequest' &&
       request.intent.name === 'AnswerIntent';
@@ -110,9 +73,7 @@ const QuizAnswerHandler = {
     var speakOutput = ``;
     var repromptOutput = ``;
     const item = attributes.quizItem;
-    const property = attributes.quizProperty;
-    const isCorrect = Builders.compareSlots(handlerInput.requestEnvelope.request.intent.slots, item[property]);
-
+    const isCorrect = Builders.compareSlots(handlerInput.requestEnvelope.request.intent.slots, item);
     if (isCorrect) {
       speakOutput = Builders.getSpeechCon(true);
       attributes.quizScore += 1;
@@ -121,8 +82,8 @@ const QuizAnswerHandler = {
       speakOutput = Builders.getSpeechCon(false);
     }
 
-    speakOutput += Builders.getAnswer(property, item);
-    var question = ``;
+    speakOutput += Builders.getAnswer(item);
+    let question = ``;
     //IF YOUR QUESTION COUNT IS LESS THAN 10, WE NEED TO ASK ANOTHER QUESTION.
     if (attributes.counter < 10) {
       speakOutput += Builders.getCurrentScore(attributes.quizScore, attributes.counter);
@@ -131,13 +92,16 @@ const QuizAnswerHandler = {
       repromptOutput = question;
 
       return response.speak(speakOutput)
+        .withSimpleCard('Onion Not The Onion', speakOutput)
         .reprompt(repromptOutput)
         .getResponse();
     } else {
       let exitSkillMessage = `Thank you for playing the United States Quiz Game!  Let's play again soon!`;
       speakOutput += Builders.getFinalScore(attributes.quizScore, attributes.counter) + exitSkillMessage;
 
-      return response.speak(speakOutput).getResponse();
+      return response.speak(speakOutput)
+        .withSimpleCard('Onion Not The Onion', speakOutput)
+        .getResponse();
     }
   },
 };
@@ -155,7 +119,7 @@ const RepeatHandler = {
   handle(handlerInput) {
     console.log("Inside RepeatHandler - handle");
     const attributes = handlerInput.attributesManager.getSessionAttributes();
-    const question = Builders.getQuestion(attributes.counter, attributes.quizproperty, attributes.quizitem);
+    const question = Builders.getQuestion(attributes.counter, attributes.quizitem);
 
     return handlerInput.responseBuilder
       .speak(question)
@@ -173,7 +137,7 @@ const HelpHandler = {
   },
   handle(handlerInput) {
     console.log("Inside HelpHandler - handle");
-    let helpMessage = `I know lots of things about the United States.  You can ask me about a state or a capital, and I'll tell you what I know.  You can also test your knowledge by asking me to start a quiz.  What would you like to do?`;
+    let helpMessage = "You can test your ability to tell also test your knowledge by asking me to start a quiz.  What would you like to do?";
     return handlerInput.responseBuilder
       .speak(helpMessage)
       .reprompt(helpMessage)
@@ -194,7 +158,7 @@ const ExitHandler = {
     );
   },
   handle(handlerInput) {
-    let exitSkillMessage = `Thank you for playing the United States Quiz Game!  Let's play again soon!`;
+    let exitSkillMessage = `Thank you for playing Onion Not The Onion!  Let's play again soon!`;
     return handlerInput.responseBuilder
       .speak(exitSkillMessage)
       .getResponse();
@@ -232,7 +196,6 @@ const ErrorHandler = {
 module.exports = {
   LaunchRequestHandler: LaunchRequestHandler,
   QuizHandler: QuizHandler,
-  DefinitionHandler: DefinitionHandler,
   QuizAnswerHandler: QuizAnswerHandler,
   RepeatHandler: RepeatHandler,
   HelpHandler: HelpHandler,
