@@ -2,7 +2,6 @@
 var fs = require('fs');
 var psl = require('psl');
 const axios = require('axios');
-let headlinesArray = [];
 let theOnionStorageArray = [];
 let notTheOnionStorageArray = [];
 

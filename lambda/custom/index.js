@@ -9,6 +9,7 @@
 const Alexa = require('ask-sdk-core');
 const skillBuilder = Alexa.SkillBuilders.custom();
 const Handlers = require('./handlers.js');
+const Interceptors = require('./interceptors.js');
 
 
 /* LAMBDA SETUP */
@@ -23,4 +24,6 @@ exports.handler = skillBuilder
     Handlers.SessionEndedRequestHandler
   )
   .addErrorHandlers(Handlers.ErrorHandler)
+  .addRequestInterceptors(Interceptors.consoleLogIntentAndData)
+  .addResponseInterceptors(Interceptors.logSpeechOutput)
   .lambda();

@@ -2,6 +2,7 @@ const states = {
   START: `_START`,
   QUIZ: `_QUIZ`,
 };
+const GAME_NAME = 'Onion Not The Onion';
 const Builders = require('./builders.js');
 
 
@@ -11,12 +12,14 @@ const Builders = require('./builders.js');
 const LaunchRequestHandler = {
   canHandle(handlerInput) {
     console.log("Inside LaunchRequestHandler");
-    console.log("FART");
-    console.log(handlerInput.requestEnvelope.request);
+    // console.log(handlerInput.requestEnvelope.request);
     return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
   },
   handle(handlerInput) {
-    let speechText = `Welcome to Onion Not The Onion! You can ask me for a random Onion Headline or a headline that really should be in the onion, or you can ask me to start a quiz.  What would you like to do?`;
+    let speechText = `Welcome to ${GAME_NAME}! You can ask me for a random Onion Headline or a headline that really should be in the onion, or you can ask me to start a quiz.  What would you like to do? `;
+
+    // const attributes = handlerInput.attributesManager.getSessionAttributes();
+    // attributes.firstLaunch = false;
     return handlerInput.responseBuilder
       .speak(speechText)
       .reprompt(speechText)
@@ -26,16 +29,13 @@ const LaunchRequestHandler = {
 
 const QuizHandler = {
   canHandle(handlerInput) {
-    console.log("Inside QuizHandler");
+    console.log('Inside QuizHandler');
     const request = handlerInput.requestEnvelope.request;
-    console.log('Logging Intent Request:');
-    console.log(request.intent.name);
-    // console.log(JSON.stringify(request));
-    return request.type === "IntentRequest" &&
-      (request.intent.name === "QuizIntent" || request.intent.name === "AMAZON.StartOverIntent");
+    return request.type === 'IntentRequest' &&
+      (request.intent.name === 'QuizIntent' || request.intent.name === 'AMAZON.StartOverIntent');
   },
   handle(handlerInput) {
-    console.log("Inside QuizHandler - handle");
+    console.log('Inside QuizHandler - handle');
     const attributes = handlerInput.attributesManager.getSessionAttributes();
     const response = handlerInput.responseBuilder;
     attributes.state = states.QUIZ;
@@ -44,15 +44,21 @@ const QuizHandler = {
     attributes.wrongAnswerCounter = 0;
     attributes.indexPosition = 0;
     attributes.randomIndexArray = Builders.generateRandomIndex();
-
-    let startQuizMessage = "Alright, let's do this. I'm going to tell you different headlines and then you're going to guess if they're real or not. You can reply by saying things like, 'true' and 'real', or, 'fake', and 'fake news'.";
-    var question = Builders.askQuestion(handlerInput);
-    var speakOutput = startQuizMessage + question;
-    var repromptOutput = question;
+    let startQuizMessage = '';
+    if (attributes.hasOwnProperty('alreadyLaunched') && attributes.alreadyLaunched === true) {
+      startQuizMessage = 'Ready for another game? Great! Lets go! ';
+    } else {
+      attributes.alreadyLaunched = true;
+      startQuizMessage = `Okay, let's play a game of ${GAME_NAME}. I'm going to tell you a different headline and then you're going to guess it's a real headline or not. Once I've said the headline, you guess by saying things like, 'true' and 'real', or, 'fake', and 'fake news'. If you get it right, you move on to the next headline. If you get it wrong, you loose a life. Once you've lost two lives, it's game over. Now lets play! `;
+    }
+    // let startQuizMessage = Builders.getStartQuizMessage(handlerInput);
+    let question = Builders.askQuestion(handlerInput);
+    let speakOutput = startQuizMessage + question;
+    let repromptOutput = question;
 
     return response
       .speak(speakOutput)
-      .withSimpleCard("Onion Not The Onion", speakOutput)
+      .withSimpleCard('Onion Not The Onion', speakOutput)
       .reprompt(repromptOutput)
       .getResponse();
   },
@@ -62,14 +68,15 @@ const QuizHandler = {
 const QuizAnswerHandler = {
   canHandle(handlerInput) {
     const request = handlerInput.requestEnvelope.request;
-    console.log("Inside QuizAnswerHandler");
+    console.log('Inside QuizAnswerHandler');
+    // console.log(JSON.stringify(handlerInput));
     const attributes = handlerInput.attributesManager.getSessionAttributes();
     return attributes.state === states.QUIZ &&
       request.type === 'IntentRequest' &&
       request.intent.name === 'AnswerIntent';
   },
   handle(handlerInput) {
-    console.log("Inside QuizAnswerHandler - handle");
+    console.log('Inside QuizAnswerHandler - handle');
     const attributes = handlerInput.attributesManager.getSessionAttributes();
     const response = handlerInput.responseBuilder;
 
@@ -112,14 +119,14 @@ const QuizAnswerHandler = {
 
 const RepeatHandler = {
   canHandle(handlerInput) {
-    console.log("Inside RepeatHandler");
+    console.log('Inside RepeatHandler');
     const request = handlerInput.requestEnvelope.request;
     const attributes = handlerInput.attributesManager.getSessionAttributes();
-    return attributes.state === states.QUIZ && request.type === "IntentRequest" &&
-      request.intent.name === "AMAZON.RepeatIntent";
+    return attributes.state === states.QUIZ && request.type === 'IntentRequest' &&
+      request.intent.name === 'AMAZON.RepeatIntent';
   },
   handle(handlerInput) {
-    console.log("Inside RepeatHandler - handle");
+    console.log('Inside RepeatHandler - handle');
     const attributes = handlerInput.attributesManager.getSessionAttributes();
     const question = Builders.getQuestion(attributes.counter, attributes.quizItem);
 
@@ -132,14 +139,14 @@ const RepeatHandler = {
 
 const HelpHandler = {
   canHandle(handlerInput) {
-    console.log("Inside HelpHandler");
+    console.log('Inside HelpHandler');
     const request = handlerInput.requestEnvelope.request;
     return request.type === 'IntentRequest' &&
       request.intent.name === 'AMAZON.HelpIntent';
   },
   handle(handlerInput) {
-    console.log("Inside HelpHandler - handle");
-    let helpMessage = 'You can start a quiz by just asking, "Start a quiz". From there, I will give you headlines and you need to guess if they are real or fake. You can guess by saying things like, "That\'s fake news", or "That must be true".  What would you like to do?';
+    console.log('Inside HelpHandler - handle');
+    let helpMessage = 'You can start a quiz by just asking, "Start a quiz". From there, I will give you headlines and you need to guess if they are real or fake. You can guess by saying things like, Thats fake news, or, That must be true.  What would you like to do? ';
     return handlerInput.responseBuilder
       .speak(helpMessage)
       .reprompt(helpMessage)
@@ -149,7 +156,7 @@ const HelpHandler = {
 
 const ExitHandler = {
   canHandle(handlerInput) {
-    console.log("Inside ExitHandler");
+    console.log('Inside ExitHandler');
     const attributes = handlerInput.attributesManager.getSessionAttributes();
     const request = handlerInput.requestEnvelope.request;
 
@@ -169,7 +176,7 @@ const ExitHandler = {
 
 const SessionEndedRequestHandler = {
   canHandle(handlerInput) {
-    console.log("Inside SessionEndedRequestHandler");
+    console.log('Inside SessionEndedRequestHandler');
     return handlerInput.requestEnvelope.request.type === 'SessionEndedRequest';
   },
   handle(handlerInput) {
@@ -180,11 +187,11 @@ const SessionEndedRequestHandler = {
 
 const ErrorHandler = {
   canHandle() {
-    console.log("Inside ErrorHandler");
+    console.log('Inside ErrorHandler');
     return true;
   },
   handle(handlerInput, error) {
-    console.log("Inside ErrorHandler - handle");
+    console.log('Inside ErrorHandler - handle');
     console.log(`Error handled: ${JSON.stringify(error)}`);
     console.log(`Handler Input: ${JSON.stringify(handlerInput)}`);
     let helpMessage = `You can answer whether a headline is real or fake by saying things like "that's fake news". You can start a new quiz by saying start a quiz. What would you like to do?`;

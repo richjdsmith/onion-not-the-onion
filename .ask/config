@@ -23,7 +23,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-onion-not-the-onion-default",
             "handler": "index.handler",
-            "revisionId": "2229ba40-04bf-4bdc-a404-a39d4ffdaa48",
+            "revisionId": "6fd3dd10-e9fb-4363-8cf9-7891013e989c",
             "runtime": "nodejs8.10"
           }
         ]
