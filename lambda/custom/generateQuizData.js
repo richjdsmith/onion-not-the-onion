@@ -1,5 +1,6 @@
 // https://old.reddit.com/r/nottheonion/top/.json?sort=top&t=month&limit=100
 var fs = require('fs');
+var psl = require('psl');
 const axios = require('axios');
 let headlinesArray = [];
 let theOnionStorageArray = [];
@@ -16,6 +17,7 @@ async function fetchData(storageArray, subreddit) {
         let postObject = {};
         postObject.category = subreddit;
         postObject.headline = post.data.title;
+        postObject.source = (psl.parse(post.data.domain)).sld;
         storageArray.push(postObject);
       });
       pagination = result.data.data.after;
@@ -28,6 +30,7 @@ async function fetchData(storageArray, subreddit) {
         let postObject = {};
         postObject.category = subreddit;
         postObject.headline = post.data.title;
+        postObject.source = (psl.parse(post.data.domain)).sld;
         storageArray.push(postObject);
       });
       pagination = result.data.data.after;
@@ -40,6 +43,7 @@ async function fetchData(storageArray, subreddit) {
         let postObject = {};
         postObject.category = subreddit;
         postObject.headline = post.data.title;
+        postObject.source = (psl.parse(post.data.domain)).sld;
         storageArray.push(postObject);
       });
       pagination = result.data.data.after;

@@ -1,38 +1,106 @@
 [{
     "category": "nottheonion",
-    "headline": "Ben Affleck finally achieves lifelong dream of not having to play Batman anymore"
+    "headline": "Ben Affleck finally achieves lifelong dream of not having to play Batman anymore",
+    "source": "avclub"
   },
   {
     "category": "nottheonion",
-    "headline": "American parents say their children are speaking in British accent after watching too much Peppa Pig"
+    "headline": "American parents say their children are speaking in British accent after watching too much Peppa Pig",
+    "source": "itv"
   },
   {
     "category": "nottheonion",
-    "headline": "Anti-vaccine advocates appointed to Minnesota autism council after measles outbreak"
+    "headline": "Anti-vaccine advocates appointed to Minnesota autism council after measles outbreak",
+    "source": "arstechnica"
   },
   {
     "category": "nottheonion",
-    "headline": "Billionaire Howard Schultz is very upset you’re calling him a billionaire"
+    "headline": "Billionaire Howard Schultz is very upset you’re calling him a billionaire",
+    "source": "vice"
   },
   {
     "category": "nottheonion",
-    "headline": "Store closes after Nike boycott: 'More Colin Kaepernick fans than I realized'"
+    "headline": "Store closes after Nike boycott: 'More Colin Kaepernick fans than I realized'",
+    "source": "nbcsports"
   },
   {
     "category": "nottheonion",
-    "headline": "Pablo's Escoburgers restaurant draws backlash for name, serving hamburger with line of fake cocaine"
+    "headline": "Pablo's Escoburgers restaurant draws backlash for name, serving hamburger with line of fake cocaine",
+    "source": "foxnews"
   },
   {
     "category": "nottheonion",
-    "headline": "BBC made Russell Howard rewrite a joke - in case it offended Isis"
+    "headline": "Wisconsin high school cheerleaders received awards for biggest breasts, butt at banquet",
+    "source": "foxnews"
   },
   {
     "category": "nottheonion",
-    "headline": "Wisconsin high school cheerleaders received awards for biggest breasts, butt at banquet"
+    "headline": "BBC made Russell Howard rewrite a joke - in case it offended Isis",
+    "source": "chortle"
   },
   {
     "category": "nottheonion",
-    "headline": "Twitter CEO says Mark Zuckerberg once killed a goat with a stun gun and served it to him for dinner"
+    "headline": "Muffin Break boss slams Millennials, says young people won’t do unpaid work",
+    "source": "news"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "As measles outbreak spreads, one anti- vaxxer asks how to keep her child safe",
+    "source": "marketwatch"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Fearing Their Dogs Will Develop Autism, Some Owners Are Declining Vaccinations",
+    "source": "mavenroundtable"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Hundreds rally to preserve right not to vaccinate children amid measles outbreak",
+    "source": "cbsnews"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Shopworker stole £1,500 worth of scratchcards — and didn't win ANYTHING",
+    "source": "greenocktelegraph"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "UAE's gender equality awards won entirely by men",
+    "source": "theguardian"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Canadian woman writes own obituary, says she has ‘smoking hot body she always wanted’ after being cremated",
+    "source": "foxnews"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "This Saints fan was 'determined' not to watch the Super Bowl, his obit says. He died just hours before the game",
+    "source": "cnn"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Murder suspect tries to turn himself in at New Orleans jail, but deputies demand proper ID",
+    "source": "theadvocate"
+  },
+  {
+    "category": "nottheonion",
+    "headline": "Microsoft security chief: IE is not a browser, so stop using it as your default",
+    "source": "zdnet"
+  },
+  {
+    "category": "theonion",
+    "headline": "Potentially Troubling: This Brain Surgeon Has The Results Of An Internet IQ Test Hanging Where His Med School Diploma Should Be",
+    "source": "clickhole"
+  },
+  {
+    "category": "theonion",
+    "headline": "Mad With Power: A Cackling Jimmy Fallon Gloated To Viewers Last Night That He Held A ‘Scrubs’ Reunion Without Anybody Around Just For His Own Personal Amusement",
+    "source": "clickhole"
+  },
+  {
+    "category": "theonion",
+    "headline": "Benefits Of Streaming: The Number Of Fatal Car Accidents Caused By People Rushing To Get Home To Watch ‘Frasier’ Has Decreased By 80% Over The Last Decade",
+    "source": "clickhole"
   }
-
 ]

@@ -2,6 +2,7 @@ const quizData = require('./quizData.json');
 Array.prototype.randomElement = function () {
   return this[Math.floor(Math.random() * this.length)];
 };
+const ordin = require('number-to-words');
 /* HELPER FUNCTIONS */
 const speechConsCorrect = ['Booya', 'All righty', 'Bam', 'Bazinga', 'Bingo', 'Boom', 'Bravo', 'Cha Ching', 'Cheers', 'Dynomite', 'Hip hip hooray', 'Hurrah', 'Hurray', 'Huzzah', 'Oh dear.  Just kidding.  Hurray', 'Kaboom', 'Kaching', 'Oh snap', 'Phew', 'Righto', 'Way to go', 'Well done', 'Whee', 'Woo hoo', 'Yay', 'Wowza', 'Yowsa'];
 const speechConsWrong = ['Argh', 'Aw man', 'Blarg', 'Blast', 'Boo', 'Bummer', 'Darn', "D'oh", 'Dun dun dun', 'Eek', 'Honk', 'Le sigh', 'Mamma mia', 'Oh boy', 'Oh dear', 'Oof', 'Ouch', 'Ruh roh', 'Shucks', 'Uh oh', 'Wah wah', 'Whoops a daisy', 'Yikes'];
@@ -41,13 +42,28 @@ function generateRandomIndex() {
 }
 
 // Generates a random array.... The name describes it well.
+// Except it doesn't. This creates arrays with repeats. Needs fixing.
+// TODO
 function generateRandomArray(arrayLength) {
-  return [...Array(arrayLength)].map(e => ~~(Math.random() * arrayLength));
+  let array = [...Array(arrayLength).keys()];
+  let shuffledArray = shuffle(array);
+  return shuffledArray;
+}
+
+function shuffle(arr) {
+  var newArr = [];
+  while (arr.length) {
+    var randomIndex =
+      Math.floor(Math.random() * arr.length),
+      element = arr.splice(randomIndex, 1);
+    newArr.push(element[0]);
+  }
+  return newArr;
 }
 
 function getQuestion(counter, item) {
   console.log('Im in getQuestion()');
-  return `Here is your ${counter}th headline: ${item.headline}`;
+  return `Here is your ${ordin.toWordsOrdinal(counter)} headline: ${item.headline}`;
 }
 
 function getRandom(min, max) {
@@ -58,10 +74,6 @@ function compareSlots(slots, item) {
   console.log('Im in compareSlots()');
   for (const slot in slots) {
     if (Object.prototype.hasOwnProperty.call(slots, slot) && slots[slot].value !== undefined) {
-      console.log('In here too!');
-      console.log(slots[slot].name.toString().toLowerCase())
-      console.log('Next')
-      console.log(slots);
       if (slots[slot].name.toString().toLowerCase() === item.category.toString().toLowerCase()) {
         return true;
       }
@@ -78,8 +90,8 @@ function getSpeechCon(type) {
 
 function getAnswer(item) {
   console.log('Im in getAnswer()');
-  let isRealHeadline = getIfHeadlineIsTrueFalse(item.category).toString();
-  return `${item.headline} is a ${isRealHeadline} headline!`;
+  let isRealHeadline = getIfHeadlineIsTrueFalse(item.category);
+  return `That one is a ${isRealHeadline.toString()} headline!`;
 }
 
 function getIfHeadlineIsTrueFalse(category) {
@@ -92,7 +104,7 @@ function getIfHeadlineIsTrueFalse(category) {
 
 function getCurrentScore(score, counter) {
   console.log('Im in getCurrentScore()');
-  return `Your current score is ${score} out of ${counter}. `;
+  return `Your current score is ${score} out of ${counter} rounds. `;
 }
 
 
@@ -191,20 +203,6 @@ function getMultipleChoiceAnswers(currentIndex, item, property) {
   return answerList;
 }
 
-// This function takes the contents of an array and randomly shuffles it.
-function shuffleArray(array) {
-  let currentIndex = array.length,
-    temporaryValue, randomIndex;
-
-  while (0 !== currentIndex) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-  return array;
-}
 
 
 module.exports = {
@@ -215,6 +213,7 @@ module.exports = {
   getTextDescription: getTextDescription,
   getSpeechCon: getSpeechCon,
   getAnswer: getAnswer,
+  getQuestion: getQuestion,
   getFinalScore: getFinalScore,
   compareSlots: compareSlots,
   getCurrentScore: getCurrentScore,

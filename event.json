@@ -2,31 +2,45 @@
   "version": "1.0",
   "session": {
     "new": false,
-    "sessionId": "amzn1.echo-api.session.83d36d53-3741-4eb8-86a5-e07ee3267651",
+    "sessionId": "amzn1.echo-api.session.18dfdbc3-70f2-4c84-bd85-04f3dd849b29",
     "application": {
       "applicationId": "amzn1.ask.skill.b810c016-0c3d-4991-9c94-ca3bc44ba484"
     },
     "attributes": {
-      "quizScore": 0,
+      "quizScore": 1,
+      "wrongAnswerCounter": 0,
       "randomIndexArray": [
-        5,
-        1,
-        5,
-        2,
-        2,
-        2,
-        5,
+        11,
+        4,
+        15,
         0,
-        8
+        14,
+        8,
+        18,
+        0,
+        9,
+        8,
+        20,
+        11,
+        10,
+        4,
+        9,
+        12,
+        10,
+        13,
+        3,
+        2,
+        17
       ],
-      "indexPosition": 1,
+      "indexPosition": 2,
       "state": "_QUIZ",
-      "counter": 1,
+      "counter": 2,
       "quizItem": {
         "category": "nottheonion",
-        "headline": "Pablo's Escoburgers restaurant draws backlash for name, serving hamburger with line of fake cocaine"
+        "headline": "Store closes after Nike boycott: 'More Colin Kaepernick fans than I realized'",
+        "source": "nbcsports"
       },
-      "selectedItemIndex": 5
+      "selectedItemIndex": 4
     },
     "user": {
       "userId": "amzn1.ask.account.AGKORDGQJ5AUSKVVJ3T76ERQQKMK3DQUKKBS3TCK5D3I4BPPQKGHFJUYPGLULLCIEKV34OUWY3WBK5DHWZGOBWXLRZHNTEODPP5G6MFKDNPCNQDWRCGQGF4MEQ3WBUONUEFKILJNTZRLWPCCJQI2X3TFL4VM4JEBENVEDHKVSXF6BTZOMNTD7AUBTEXSURELOBIQQFCN6ASAI6I"
@@ -45,7 +59,7 @@
         "supportedInterfaces": {}
       },
       "apiEndpoint": "https://api.amazonalexa.com",
-      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmI4MTBjMDE2LTBjM2QtNDk5MS05Yzk0LWNhM2JjNDRiYTQ4NCIsImV4cCI6MTU1MTAxNDUxMCwiaWF0IjoxNTUxMDE0MjEwLCJuYmYiOjE1NTEwMTQyMTAsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUhWUzM0UkNaMllMU0RUWlNYSUlGNzRMVlVTNUZPUklRSEo2R0lIQUVFNE5IQUZFV1ZQTklWNzVRNFpSUEszM1FQMjZRTEJFTkxVTVY2TTcyWjdWVVdDTUVGM0xVSlRPSFdCRkxLSFdNQjZWMk9KUjU3R1RJU0FXNEFEV1ZHUEFOQTQ0VTZaSldGR1ZTV1JJRFhEREtBSlBTQkFYTjIyNFlSNjNETjRDQk1KT05JN0I2WVpOMiIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHS09SREdRSjVBVVNLVlZKM1Q3NkVSUVFLTUszRFFVS0tCUzNUQ0s1RDNJNEJQUFFLR0hGSlVZUEdMVUxMQ0lFS1YzNE9VV1kzV0JLNURIV1pHT0JXWExSWkhOVEVPRFBQNUc2TUZLRE5QQ05RRFdSQ0dRR0Y0TUVRM1dCVU9OVUVGS0lMSk5UWlJMV1BDQ0pRSTJYM1RGTDRWTTRKRUJFTlZFREhLVlNYRjZCVFpPTU5URDdBVUJURVhTVVJFTE9CSVFRRkNONkFTQUk2SSJ9fQ.PeDdaB_PIDZk7lBEiFNBlwuL6GllFVxSLiQUUkVNLEosqPD3g27MqsN1Nq89OT7cKP93WxOZGoEl7SveQLNwPAwOovbQhsmPZ51XT032sJEE3rvzUFRoVHr777Qvo9RVkIEKW9XRK-Z56AYbpZGth5unAWaF410TMO4yctvp9ysdFMFOPherr-I7YTs5dTqTDPj-E6jiEXqn631_r1S1cSoS26fANycoJnXxvAaEOx3ut3t9zxa3zgDNfCOR2DmcE_uPZceW67QNN6eTiM7njku3VbZpD5bKv_1RDMPRNY54aCVZzqSvrEPHvqOyaXiL0tbs7Ae7Lmhf1CEU7TsTrA"
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmI4MTBjMDE2LTBjM2QtNDk5MS05Yzk0LWNhM2JjNDRiYTQ4NCIsImV4cCI6MTU1MTAzNjU1OCwiaWF0IjoxNTUxMDM2MjU4LCJuYmYiOjE1NTEwMzYyNTgsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUhWUzM0UkNaMllMU0RUWlNYSUlGNzRMVlVTNUZPUklRSEo2R0lIQUVFNE5IQUZFV1ZQTklWNzVRNFpSUEszM1FQMjZRTEJFTkxVTVY2TTcyWjdWVVdDTUVGM0xVSlRPSFdCRkxLSFdNQjZWMk9KUjU3R1RJU0FXNEFEV1ZHUEFOQTQ0VTZaSldGR1ZTV1JJRFhEREtBSlBTQkFYTjIyNFlSNjNETjRDQk1KT05JN0I2WVpOMiIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHS09SREdRSjVBVVNLVlZKM1Q3NkVSUVFLTUszRFFVS0tCUzNUQ0s1RDNJNEJQUFFLR0hGSlVZUEdMVUxMQ0lFS1YzNE9VV1kzV0JLNURIV1pHT0JXWExSWkhOVEVPRFBQNUc2TUZLRE5QQ05RRFdSQ0dRR0Y0TUVRM1dCVU9OVUVGS0lMSk5UWlJMV1BDQ0pRSTJYM1RGTDRWTTRKRUJFTlZFREhLVlNYRjZCVFpPTU5URDdBVUJURVhTVVJFTE9CSVFRRkNONkFTQUk2SSJ9fQ.Al9uitqRhE1v4QouFbzFYSHLImTy3K3FKO5khA28DJzH34DTlJxm-T_TFGwGn9h0U8TnWE5lMAsBsdsiDfGZ4wJd2b4z2O9okJf5XRAdG2T5GZ5Xz5ClhMh1v5f6lnhgpepQiQorr92vbf8ALVkngaWHTSz0yi0xB4Rwh2xxrqGsilBh1naRV7lQ11-xyVqTS-4o5C6HIVangRjb3o5x46FwEHVDnwZFvqZUC1Q2PBVTyb6epVry0rm2X-g3BG7Vn1TEm0G6-pox6ZlFola6wsefNSCYewD2LTqBFrz1NiuGG4xt7SlKLiYhK-QA3EnyyK6XcEJqwE2H-jmtqoMENw"
     },
     "Viewport": {
       "experiences": [{
@@ -67,34 +81,12 @@
   },
   "request": {
     "type": "IntentRequest",
-    "requestId": "amzn1.echo-api.request.13b2f4f1-80c2-4ed2-b18e-6cbb7c1da6ab",
-    "timestamp": "2019-02-24T13:16:50Z",
+    "requestId": "amzn1.echo-api.request.d33df31f-eb93-43cb-be4f-e39614048c96",
+    "timestamp": "2019-02-24T19:24:18Z",
     "locale": "en-US",
     "intent": {
-      "name": "AnswerIntent",
-      "confirmationStatus": "NONE",
-      "slots": {
-        "TrueFalse": {
-          "name": "TrueFalse",
-          "value": "true",
-          "resolutions": {
-            "resolutionsPerAuthority": [{
-              "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.b810c016-0c3d-4991-9c94-ca3bc44ba484.TRUE_FALSE",
-              "status": {
-                "code": "ER_SUCCESS_MATCH"
-              },
-              "values": [{
-                "value": {
-                  "name": "nottheonion",
-                  "id": "TRUE"
-                }
-              }]
-            }]
-          },
-          "confirmationStatus": "NONE",
-          "source": "USER"
-        }
-      }
+      "name": "AMAZON.RepeatIntent",
+      "confirmationStatus": "NONE"
     }
   }
 }
